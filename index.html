@@ -58,13 +58,79 @@
   <div class="practice-header">
   </div>
   <div class="our-work-header">
+    <div class="our-work-title-container">
+      <h2 class="our-work-title">
+        "Patient Sophistication Scale"<br>
+        The psychological journey a patient flows and highlights three primary stages of awareness and research; Pain Point, Solution, Provider, this model represents the linear metamorphosis of a prospective avatar becoming a lead and becoming the actual UX strategy deployed by our teams to engineer optimal digital conversion experiences. Below a curated group of our medical industry specific case studies.
+      </h2>
+    </div>
   </div>
   <div class="approach-header">
   </div>
   <div class="capabilities-header">
+    <div class="capabilities-title-container">
+      <h2 class="capabilities-title">
+      With a vision based on evergreen tactics to deliver results. It comes down to hard work and sound strategy. Each one of our digital marketing programs has been designed with precision, extensively tested and proven iterative process to sustainably increase practice visibility, conversion rates, and prospect leads, helping maximize growth and return on investment while showcasing best in class high performance ideas.
+    </h2>
+    </div>
+    <div class="capabilities-content">
+      <div class="capabilities-col">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta, nibh sed lobortis venenatis, orci lectus tincidunt velit,</p>
+        <ul>
+          <li>SSL & Website Hosting</li>
+          <li>Web Design and Management</li>
+          <li>UX Development</li>
+          <li>Search Engine Optimization</li>
+          <li>Content Marketing</li>
+          <li>Google Ads Campaign</li>
+          <li>Facebook Ad Campaign</li>
+          <li>Syndicated Press Releases</li>
+          <li>Video Marketing</li>
+          <li>eCommerce</li>
+        </ul>
+      </div>
+      <div class="capabilities-col">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta, nibh sed lobortis venenatis, orci lectus tincidunt velit,</p>
+        <ul>
+          <li>Rating Strategy</li>
+          <li>Photo Gallery Software</li>
+          <li>UX/UI Mobile Optimization</li>
+          <li>Full Google Analytic Analysis &</li>
+          <li>Reporting Strategy</li>
+        </ul>
+      </div>
+      <div class="capabilities-col">
+        <ul class="top">
+          <li>Email Marketing</li>
+          <li>Social Media Management</li>
+        </ul>
+      </div>
+    </div>
   </div>
   <div class="about-header">
+    <div class="about-title-container">
+      <h2 class="about-title">
+        A culture of world class service, bold ideas, diversity, admiration, creative technology, innovation and growth. A member of the top 1% of Aesthetic Marketing Agencies in the US. We are trusted by industry partners, such as Allergan, Alma, Sciton, Realself, Merz, Med Results Network, but most imprtantly, on an organizational level, we design Digital Marketing Experiences® that help our clients build customer loyalty by attracting and retaining leads through our core focus for the aesthetics industry.
+      </h2>
+    </div>
+    <div class="about-content">
+      <h3 class="about-tagline m-b">
+        A conversation about the ethos and process of TRBO ADvance.
+      </h3>
+      <h3 class="about-tagline two">
+        Play.&nbsp;&nbsp;&nbsp;&nbsp; Pause.&nbsp;&nbsp;&nbsp;&nbsp; Stop
+      </h3>
+      <img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-11-at-12.41-1.png" class="trbo-player">
+      <div class="partner-row">
+        <h4 class="partner-title">
+          Our Partner Network
+        </h4>
+        <img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-11-at-1.15-1.png" class="partners">
+      </div>
+    </div>
+    </div>
   </div>
+
   <!---- Hero Starts --->
   <div class="trbo-hero-section">
     <h1 class="hero-title">TRBO ADvance is a multi-channel digital communications & marketing practice especialized in Medical Beauty. We combine design, technology and business strategy into a unified discipline powerful enough to propel practices forward.</h1>
@@ -123,18 +189,58 @@
   <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.min.js" integrity="sha256-eEa1kEtgK9ZL6h60VXwDsJ2rxYCwfxi40VZ9E0XwoEA=" crossorigin="anonymous"></script>
 
   <script>
-/*Approach header*/
+/*Practice Header*/
+$(function() {
+$('.practice-on').on('click', function() {
+$('.our-work-header').removeClass('our-work-on');
+$('.approach-header').removeClass('approach-on');
+$('.capabilities-header').removeClass('capabilities-on');
+$('.about-header').removeClass('about-on');
+$('.practice-header').delay('1500').toggleClass('practice-on');
+});
+});
+
+/*Our Work Header*/
+$(function() {
+$('.our-work-on').on('click', function() {
+$('.practice-header').removeClass('practice-on');
+$('.approach-header').removeClass('approach-on');
+$('.capabilities-header').removeClass('capabilities-on');
+$('.about-header').removeClass('about-on');
+$('.our-work-header').delay('1500').toggleClass('our-work-on');
+});
+});
+
+/*Approach Header*/
 $(function() {
 $('.approach-on').on('click', function() {
 $('.practice-header').removeClass('practice-on');
+$('.our-work-header').removeClass('our-work-on');
+$('.capabilities-header').removeClass('capabilities-on');
+$('.about-header').removeClass('about-on');
 $('.approach-header').delay('1500').toggleClass('approach-on');
 });
 });
 
+/*Capabilities Header*/
 $(function() {
-$('.practice-on').on('click', function() {
+$('.capabilities-on').on('click', function() {
+$('.practice-header').removeClass('practice-on');
+$('.our-work-header').removeClass('our-work-on');
 $('.approach-header').removeClass('approach-on');
-$('.practice-header').delay('1500').toggleClass('practice-on');
+$('.about-header').removeClass('about-on');
+$('.capabilities-header').delay('1500').toggleClass('capabilities-on');
+});
+});
+
+/*About Header*/
+$(function() {
+$('.about-on').on('click', function() {
+$('.practice-header').removeClass('practice-on');
+$('.our-work').removeClass('our-work-on');
+$('.approach-header').removeClass('approach-on');
+$('.capabilities-header').removeClass('capabilities-on');
+$('.about-header').delay('1500').toggleClass('about-on');
 });
 });
 
@@ -142,4 +248,3 @@ $('.practice-header').delay('1500').toggleClass('practice-on');
 </body>
 
 </html>
-
