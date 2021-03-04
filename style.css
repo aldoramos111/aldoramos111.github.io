@@ -35,6 +35,7 @@ body {
 	width: 30%;
 	max-width: 189px;
 	position: relative;
+	cursor: pointer;
 }
 
 .trbo-logo,
@@ -567,9 +568,17 @@ ul.top {
 	display: none;
 }
 
+.practice-list.on {
+	display: flex;
+}
+
 /*Approach Off*/
 .approach-txt{
 	display: none;
+}
+
+.approach-txt.on {
+	display: block;
 }
 
 /*===================== Parallax Footer ========================*/
