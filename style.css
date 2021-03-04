@@ -394,7 +394,19 @@ ul.top {
 }
 
 .hero-title.sub {
+	position: relative;
 	margin: 0;
+	width: fit-content;
+}
+
+.hero-title.sub::after {
+	content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 80px;
+    width: 500px;
+    height: 2px;
+    background: #fff;
 }
 
 /*-------------- Footer ---------------*/
@@ -599,4 +611,11 @@ a.practice-on:hover::after,
 
 .footer-bottom a::after {
 	bottom: 0;
+}
+
+a.practice-on.active::after,
+.nav-link.active::after,
+.footer-nav-link.active::after,
+.footer-bottom a::after {
+	width: 100%;
 }
