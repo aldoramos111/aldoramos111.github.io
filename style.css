@@ -4,7 +4,6 @@
 
 body {
 	margin: 0;
-	display: none;
 }
 
 .trbo-site {
@@ -89,8 +88,19 @@ body {
 /*-------------- Headers -----------------------*/
 
 .practice-header,
-.approach-header {
+.approach-header,
+.capabilities-header,
+.our-work-header,
+.about-header {
 	transition: all .8s ease-in-out;
+}
+
+.our-work-header.our-work-on,
+.approach-header.approach-on,
+.capabilities-header.capabilities-on,
+.about-header.about-on,
+.practice-header.practice-on {
+	top: 0;
 }
 
 /*-------------- Practice Header ---------------*/
@@ -102,10 +112,6 @@ body {
 	top: -390px;
     z-index: 5;
 	background: #fff;
-}
-
-.practice-header.practice-on {
-	top: 0;
 }
 
 .practice-container {
@@ -136,10 +142,6 @@ body {
 	top: -390px;
     z-index: 5;
 	background: #0055D3;
-}
-
-.approach-header.approach-on {
-	top: 0;
 }
 
 /*.nav-link,
@@ -176,21 +178,201 @@ p.second-txt {
 	margin-top: 26px;
 }
 
-.nav-link.approach-on::after {
-	content: "";
-	position: absolute;
-	bottom: -8px;
-	left: 0;
+/*-------------- Our Work Header ---------------*/
+
+.our-work-header {
+	height: 110vh;
 	width: 100%;
-	height: 1px;
+	background: #e5e5e5;
+	z-index: 5;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: -110vh;
+	padding-top: 230px;
+}
+
+.our-work-title-container {
+    width: 91.9%;
+    margin: 0 auto 40px;
+}
+
+.our-work-title {
+	color: #000;
+	font-family: Helvetica;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 40px;
+	margin: 0;
+	max-width: 1700px;
+}
+
+/*-------------- Capabilities Header ---------------*/
+
+.capabilities-header {
+	height: 112vh;
+	width: 100%;
+	background: #54514e;
+	z-index: 5;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: -112vh;
+	padding-top: 230px;
+}
+
+.capabilities-title-container {
+	width: 91.9%;
+	margin: 0 auto 40px;
+}
+
+.capabilities-title {
+	color: #fff;
+	font-family: Helvetica;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 1.15em;
+	margin: 0;
+	max-width: 1700px;
+}
+
+.capabilities-content {
+	width: 100%;
+	max-width: 1400px;
+	margin-right: auto;
+	padding-left: 4%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.capabilities-col {
+	display: flex;
+	flex-direction: column;
+	max-width: 460px;
+	width: 100%;
+	padding-right: 36px;
+}
+
+.capabilities-col p {
+	color: #fff;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.capabilities-col p {
+	margin-bottom: 30px;
+}
+
+.capabilities-col li {
+	color: #fff;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 34px !important;
+}
+
+.capabilities-col li {
+	color: #fff;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.capabilities-col ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.top {
+	margin-top: 20px;
+}
+
+/*-------------- About Header ---------------*/
+
+.about-header {
+	height: 112vh;
+	width: 100%;
 	background: #fff;
+	z-index: 5;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	top: -112vh;
+	padding-top: 230px;
+}
+
+.about-title-container,
+.about-content {
+	width: 92%;
+	margin: 0 auto;
+}
+
+.about-title-container {
+	margin-bottom: 40px;
+}
+
+.about-title,
+.about-tagline {
+	color: #0055d3;
+	font-family: Helvetica;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 1.15em;
+	margin: 0;
+	max-width: 1700px;
+}
+
+.about-tagline {
+
+}
+
+.about-tagline.two {
+	margin-bottom: 10px;
+}
+
+.partner-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.partner-title {
+	color: #0055d3;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	margin: 0;
+	margin-right: 70px;
+}
+
+.m-b {
+	margin-bottom: 48px;
+}
+
+.trbo-player {
+	margin-bottom: 86px;
+    margin-left: -10px;
+	text-align: left;
+}
+
+.partner-row {
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.partners {
+	width: 100%;
+	max-width: 1400px;
 }
 
 /*-------------- Hero ---------------*/
 
 .trbo-hero-section {
 	width: 100%;
-	height: 105vh;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -219,7 +401,7 @@ p.second-txt {
 
 .trbo-footer {
 	width: 100%;
-	height: 112vh;
+	height: 115vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -228,13 +410,12 @@ p.second-txt {
 
 .footer-top {
 	width: 100%;
-	display: flex;
-	flex-direction: column;
+	margin-top: 160px;
 }
 
 .footer-testimonial {
 	width: 88%;
-	margin: 100px auto 216px;
+	margin: 100px auto 116px;
 }
 
 .testimonial {
@@ -298,6 +479,7 @@ p.second-txt {
 	line-height: 48px;
 }
 
+
 .nav-col-left,
 .nav-col-right {
 	display: flex;
@@ -356,4 +538,65 @@ p.second-txt {
 /*Approach Off*/
 .approach-txt{
 	display: none;
+}
+
+/*===================== Parallax Footer ========================*/
+
+body{
+z-index:2;
+position: relative;
+margin-bottom: 125vh !important; /* set to the height of my footer */
+background: white;
+}
+
+.trbo-footer{
+bottom:0;
+width:100%;
+position:fixed;
+z-index:-1;
+height:115vh; /* Must be set to match the #content 's margine-bottom*/
+}
+
+
+/*==================== Links ===================================*/
+
+a.practice-on,
+.nav-link,
+.footer-nav-link,
+.footer-bottom a {
+	position: relative;
+}
+
+a.practice-on::after,
+.nav-link::after,
+.footer-nav-link::after,
+.footer-bottom a::after {
+	content: "";
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	width: 0;
+	height: 1px;
+    background: #000;
+    transition: all .4s ease-in-out;
+}
+
+.footer-nav-link::after {
+	bottom: 0;
+	background: #fff;
+}
+
+.footer-nav-link {
+	width: fit-content;
+}
+
+a.practice-on:hover::after,
+.nav-link:hover::after,
+.footer-nav-link:hover::after,
+.footer-bottom a:hover::after {
+	width: 100%;
+}
+
+.footer-bottom a::after {
+	bottom: 0;
 }
