@@ -192,6 +192,7 @@
 /*Practice Header*/
 $(function() {
 $('.practice-on').on('click', function() {
+$('.approach-txt').removeClass('on');
 $('.our-work-header').removeClass('our-work-on');
 $('.approach-header').removeClass('approach-on');
 $('.capabilities-header').removeClass('capabilities-on');
@@ -201,6 +202,7 @@ $('.approach-on').removeClass('active');
 $('.capabilities-on').removeClass('active');
 $('.about-on').removeClass('active');
 $('.practice-header').delay('1500').toggleClass('practice-on');
+$('.practice-list').delay('2500').toggleClass('on');
 $('.practice-on').toggleClass('active');
 $('.nav-link').removeClass('blue');
 $('a.practice-on').removeClass('blue');
@@ -215,6 +217,8 @@ $('.trbo-logo-blue').removeClass('active');
 /*Our Work Header*/
 $(function() {
 $('.our-work-on').on('click', function() {
+$('.practice-list').removeClass('on');
+$('.approach-txt').removeClass('on');
 $('.practice-header').removeClass('practice-on');
 $('.approach-header').removeClass('approach-on');
 $('.capabilities-header').removeClass('capabilities-on');
@@ -238,6 +242,7 @@ $('.trbo-logo-blue').removeClass('active');
 /*Approach Header*/
 $(function() {
 $('.approach-on').on('click', function() {
+$('.practice-list').removeClass('on');
 $('.practice-header').removeClass('practice-on');
 $('.our-work-header').removeClass('our-work-on');
 $('.capabilities-header').removeClass('capabilities-on');
@@ -247,6 +252,7 @@ $('.our-work-on').removeClass('active');
 $('.capabilities-on').removeClass('active');
 $('.about-on').removeClass('active');
 $('.approach-header').delay('1500').toggleClass('approach-on');
+$('.approach-txt').delay('2500').toggleClass('on');
 $('.approach-on').toggleClass('active');
 $('.nav-link').removeClass('blue');
 $('a.practice-on').removeClass('blue');
@@ -260,6 +266,8 @@ $('.trbo-logo-white').addClass('active');
 /*Capabilities Header*/
 $(function() {
 $('.capabilities-on').on('click', function() {
+$('.practice-list').removeClass('on');
+$('.approach-txt').removeClass('on');
 $('.practice-header').removeClass('practice-on');
 $('.our-work-header').removeClass('our-work-on');
 $('.approach-header').removeClass('approach-on');
@@ -283,6 +291,8 @@ $('.trbo-logo-white').addClass('active');
 /*About Header*/
 $(function() {
 $('.about-on').on('click', function() {
+$('.practice-list').removeClass('on');
+$('.approach-txt').removeClass('on');
 $('.practice-header').removeClass('practice-on');
 $('.our-work-header').removeClass('our-work-on');
 $('.approach-header').removeClass('approach-on');
@@ -297,12 +307,36 @@ $('.nav-link').removeClass('white');
 $('a.practice-on').removeClass('white');
 $('.nav-link').toggleClass('blue');
 $('a.practice-on').toggleClass('blue');
-$('.trbo-logo').toggleClass('off');
+$('.trbo-logo').addClass('off');
 $('.trbo-logo-white').removeClass('active');
 $('.trbo-logo-blue').toggleClass('active');
 });
 });
 
+/*TRBO Logo*/
+$(function() {
+$('.logo-container').on('click', function() {
+$('.practice-list').removeClass('on');
+$('.approach-txt').removeClass('on');
+$('.practice-header').removeClass('practice-on');
+$('.our-work-header').removeClass('our-work-on');
+$('.approach-header').removeClass('approach-on');
+$('.capabilities-header').removeClass('capabilities-on');
+$('.about-header').removeClass('about-on');
+$('.practice-on').removeClass('active');
+$('.our-work-on').removeClass('active');
+$('.approach-on').removeClass('active');
+$('.about-on').removeClass('active');
+$('.capabilities-on').removeClass('active');
+$('.trbo-logo').removeClass('off');
+$('.trbo-logo-white').removeClass('active');
+$('.trbo-logo-blue').removeClass('active');
+$('.nav-link').removeClass('white');
+$('a.practice-on').removeClass('white');
+$('.nav-link').removeClass('blue');
+$('a.practice-on').removeClass('blue');
+});
+});
 
 
 </script>
