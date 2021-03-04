@@ -37,6 +37,12 @@ body {
 	position: relative;
 }
 
+.trbo-logo,
+.trbo-logo-white,
+.trbo-logo-blue {
+	transition: all .4s ease-in-out;
+}
+
 .trbo-logo {
 	width: 189px;
 }
@@ -46,6 +52,19 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
+	opacity: 0;
+}
+
+.trbo-logo-white.active {
+	opacity: 1;
+	z-index: 6;
+}
+
+.trbo-logo-blue.active {
+	opacity: 1;
+}
+
+.trbo-logo.off {
 	opacity: 0;
 }
 
@@ -75,6 +94,7 @@ body {
 	font-family: Helvetica;
 	text-decoration: none;
 	color: #000;
+	transition: all .4s ease-in-out;
 }
 
 .nav-item {
@@ -617,4 +637,24 @@ a.practice-on.active::after,
 .nav-link.active::after,
 .footer-nav-link.active::after {
 	width: 100%;
+}
+
+.nav-link.white,
+a.practice-on.white{
+    color: #fff;
+}
+
+.nav-link.blue,
+a.practice-on.blue{
+    color: #0055d3;
+}
+
+.nav-link.white::after,
+a.practice-on.white::after {
+	background: #fff;
+}
+
+.nav-link.blue::after,
+a.practice-on.blue::after {
+	background: #0055d3;
 }
