@@ -615,7 +615,6 @@ a.practice-on:hover::after,
 
 a.practice-on.active::after,
 .nav-link.active::after,
-.footer-nav-link.active::after,
-.footer-bottom a::after {
+.footer-nav-link.active::after {
 	width: 100%;
 }
