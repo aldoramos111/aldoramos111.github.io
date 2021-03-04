@@ -202,6 +202,13 @@ $('.capabilities-on').removeClass('active');
 $('.about-on').removeClass('active');
 $('.practice-header').delay('1500').toggleClass('practice-on');
 $('.practice-on').toggleClass('active');
+$('.nav-link').removeClass('blue');
+$('a.practice-on').removeClass('blue');
+$('.nav-link').removeClass('white');
+$('a.practice-on').removeClass('white');
+$('.trbo-logo').removeClass('off');
+$('.trbo-logo-white').removeClass('active');
+$('.trbo-logo-blue').removeClass('active');
 });
 });
 
@@ -218,6 +225,13 @@ $('.capabilities-on').removeClass('active');
 $('.about-on').removeClass('active');
 $('.our-work-header').delay('1500').toggleClass('our-work-on');
 $('.our-work-on').toggleClass('active');
+$('.nav-link').removeClass('blue');
+$('a.practice-on').removeClass('blue');
+$('.nav-link').removeClass('white');
+$('a.practice-on').removeClass('white');
+$('.trbo-logo').removeClass('off');
+$('.trbo-logo-white').removeClass('active');
+$('.trbo-logo-blue').removeClass('active');
 });
 });
 
@@ -234,6 +248,12 @@ $('.capabilities-on').removeClass('active');
 $('.about-on').removeClass('active');
 $('.approach-header').delay('1500').toggleClass('approach-on');
 $('.approach-on').toggleClass('active');
+$('.nav-link').removeClass('blue');
+$('a.practice-on').removeClass('blue');
+$('.nav-link').addClass('white');
+$('a.practice-on').addClass('white');
+$('.trbo-logo').addClass('off');
+$('.trbo-logo-white').addClass('active');
 });
 });
 
@@ -250,6 +270,13 @@ $('.approach-on').removeClass('active');
 $('.about-on').removeClass('active');
 $('.capabilities-header').delay('1500').toggleClass('capabilities-on');
 $('.capabilities-on').toggleClass('active');
+$('.nav-link').removeClass('blue');
+$('a.practice-on').removeClass('blue');
+$('.nav-link').addClass('white');
+$('a.practice-on').addClass('white');
+$('.trbo-logo-blue').removeClass('active');
+$('.trbo-logo').addClass('off');
+$('.trbo-logo-white').addClass('active');
 });
 });
 
@@ -257,7 +284,7 @@ $('.capabilities-on').toggleClass('active');
 $(function() {
 $('.about-on').on('click', function() {
 $('.practice-header').removeClass('practice-on');
-$('.our-work').removeClass('our-work-on');
+$('.our-work-header').removeClass('our-work-on');
 $('.approach-header').removeClass('approach-on');
 $('.capabilities-header').removeClass('capabilities-on');
 $('.practice-on').removeClass('active');
@@ -266,6 +293,13 @@ $('.approach-on').removeClass('active');
 $('.capabilities-on').removeClass('active');
 $('.about-header').delay('1500').toggleClass('about-on');
 $('.about-on').toggleClass('active');
+$('.nav-link').removeClass('white');
+$('a.practice-on').removeClass('white');
+$('.nav-link').toggleClass('blue');
+$('a.practice-on').toggleClass('blue');
+$('.trbo-logo').toggleClass('off');
+$('.trbo-logo-white').removeClass('active');
+$('.trbo-logo-blue').toggleClass('active');
 });
 });
 
