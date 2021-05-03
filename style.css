@@ -6,6 +6,18 @@ body {
 	margin: 0;
 }
 
+.audio-player-row {
+	width: 100%;
+	max-width: 1400px;
+	display: flex;
+	justify-content: space-between;
+	margin: 100px auto;
+}
+
+.audio-player-col {
+	width: 45%;
+}
+
 /*Audio Player */
 .zeiss-audio-player {
 	width: 100%;
