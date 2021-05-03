@@ -9,337 +9,129 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 <body>
-<main class="trbo-site">
-  <div class="base-header">
-    <div class="base-header-content">
-      <div class="left-container">
-        <div class="logo-container">
-          <img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/02/TRBO-LOGO.svg" class="trbo-logo" alt="TRBO ADVANCE Logo">
-          <img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/02/TRBO-LOGO-WHITE.svg" class="trbo-logo-white" alt="TRBO ADVANCE Logo">
-          <img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/02/trbo-logo-blue.svg" class="trbo-logo-blue" alt="TRBO ADVANCE Logo">
-        </div>
-        <div class="practice-container">
-          <a href="#" class="practice-on">Navigate by Practice</a>
-          <div class="practice-list">
-            <a href="#" class="practice-item one">Plastic Surgeons</a>
-            <a href="#" class="practice-item two">Aesthetic Physycians</a>
-            <a href="#" class="practice-item three">Medical Spas</a>
-            <a href="#" class="practice-item four">Opthalmology</a>
-            <a href="#" class="practice-item five">Dermatology</a>
-            <a href="#" class="practice-item six">Obgyn's</a>
-        </div>
-      </div>
-      </div>
-      <div class="right-container">
-        <nav class="trbo-navigation">
-          <div class="nav-item">
-            <a href="#" class="nav-link our-work-on">Our Work</a>
-          </div>
-          <div class="nav-item approach-container">
-            <a href="#" class="nav-link approach-on">Approach</a>
-            <div class="approach-txt">
-              <p>Where we once focused primarily on optimizing a patient's journey from unawareness to becoming a lead, We now find it vital to expand our ability to design, coach, and influence seamless practice experiences across all agency channels as well as the patient experience with the practice.</p>
-              <p class="second-txt">Acquire. Convert. Retain. Advance.</p>
-          </div>
-          </div>
-          <div class="nav-item">
-            <a href="#" class="nav-link capabilities-on">Capabilities</a>
-          </div>
-          <div class="nav-item">
-            <a href="#" class="nav-link about-on">About Us</a>
-          </div>
-          <div class="nav-item last">
-            <a href="#" class="nav-link contact-on">Contact</a>
-          </div>
-        </nav>
-      </div>
+  <div class="audio-player-row">
+    <div class="audio-player-col">
+      	<div class="zeiss-audio-player">
+		<div class="audio-player-body">
+			<div class="audio-player-controls">
+				<button class="audio-player-play amplitude-play btn-1" data-amplitude-song-index="0">PLAY</button>
+				<button class="audio-player-pause amplitude-pause" data-amplitude-song-index="0">PAUSE</button>
+				<button class="audio-player-stop amplitude-stop" data-amplitude-song-index="0">STOP</button>
+			</div>
+			<div class="audio-player-progress-circle">
+				<svg class="progress-ring" width="60" height="60">
+				  <circle class="progress-ring__circle circle1" stroke="#6200EE" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
+				</svg>
+			</div>
+		</div>
+		<!--<div class="audio-player-progress">
+			<progress class="amplitude-song-played-progress" amplitude-main-song-played-progress="true" id="song-played-progress"></progress>
+		</div>-->
+		<div class="audio-player-footer">
+			<input type="range" class="amplitude-song-slider slider-1" step=".1" data-amplitude-song-index="0"/>
+			<p class="audio-player-footer-txt"><strong>TO LEARN MORE</strong> Listen to our Audio Guide</p>
+		</div>
+	</div>
+    </div>
+    <div class="audio-player-col">
+      	<div class="zeiss-audio-player">
+		<div class="audio-player-body">
+			<div class="audio-player-controls">
+				<button class="audio-player-play-two btn-2 amplitude-play" data-amplitude-song-index="1">PLAY</button>
+				<button class="audio-player-pause-two amplitude-pause" data-amplitude-song-index="1">PAUSE</button>
+				<button class="audio-player-stop amplitude-stop" data-amplitude-song-index="1">STOP</button>
+			</div>
+			<div class="audio-player-progress-circle">
+				<svg class="progress-ring-2" width="60" height="60">
+				  <circle class="circle2" stroke="#6200EE" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
+				</svg>
+			</div>
+		</div>
+		<!--<div class="audio-player-progress">
+			<progress class="amplitude-song-played-progress" amplitude-main-song-played-progress="true" id="song-played-progress"></progress>
+		</div>-->
+		<div class="audio-player-footer">
+			<input type="range" class="amplitude-song-slider slider-2" step=".1" data-amplitude-song-index="1"/>
+			<p class="audio-player-footer-txt"><strong>TO LEARN MORE</strong> Listen to our Audio Guide</p>
+		</div>
+	</div>
     </div>
   </div>
-  <div class="practice-header">
-  </div>
-  <div class="our-work-header">
-    <div class="our-work-title-container">
-      <h2 class="our-work-title">
-        "Patient Sophistication Scale"<br>
-        The psychological journey a patient flows and highlights three primary stages of awareness and research; Pain Point, Solution, Provider, this model represents the linear metamorphosis of a prospective avatar becoming a lead and becoming the actual UX strategy deployed by our teams to engineer optimal digital conversion experiences. Below a curated group of our medical industry specific case studies.
-      </h2>
-    </div>
-  </div>
-  <div class="approach-header">
-  </div>
-  <div class="capabilities-header">
-    <div class="capabilities-title-container">
-      <h2 class="capabilities-title">
-      With a vision based on evergreen tactics to deliver results. It comes down to hard work and sound strategy. Each one of our digital marketing programs has been designed with precision, extensively tested and proven iterative process to sustainably increase practice visibility, conversion rates, and prospect leads, helping maximize growth and return on investment while showcasing best in class high performance ideas.
-    </h2>
-    </div>
-    <div class="capabilities-content">
-      <div class="capabilities-col">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta, nibh sed lobortis venenatis, orci lectus tincidunt velit,</p>
-        <ul>
-          <li>SSL & Website Hosting</li>
-          <li>Web Design and Management</li>
-          <li>UX Development</li>
-          <li>Search Engine Optimization</li>
-          <li>Content Marketing</li>
-          <li>Google Ads Campaign</li>
-          <li>Facebook Ad Campaign</li>
-          <li>Syndicated Press Releases</li>
-          <li>Video Marketing</li>
-          <li>eCommerce</li>
-        </ul>
-      </div>
-      <div class="capabilities-col">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta, nibh sed lobortis venenatis, orci lectus tincidunt velit,</p>
-        <ul>
-          <li>Rating Strategy</li>
-          <li>Photo Gallery Software</li>
-          <li>UX/UI Mobile Optimization</li>
-          <li>Full Google Analytic Analysis &</li>
-          <li>Reporting Strategy</li>
-        </ul>
-      </div>
-      <div class="capabilities-col">
-        <ul class="top">
-          <li>Email Marketing</li>
-          <li>Social Media Management</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="about-header">
-    <div class="about-title-container">
-      <h2 class="about-title">
-        A culture of world class service, bold ideas, diversity, admiration, creative technology, innovation and growth. A member of the top 1% of Aesthetic Marketing Agencies in the US. We are trusted by industry partners, such as Allergan, Alma, Sciton, Realself, Merz, Med Results Network, but most imprtantly, on an organizational level, we design Digital Marketing Experiences® that help our clients build customer loyalty by attracting and retaining leads through our core focus for the aesthetics industry.
-      </h2>
-    </div>
-    <div class="about-content">
-      <h3 class="about-tagline m-b">
-        A conversation about the ethos and process of TRBO ADvance.
-      </h3>
-      <h3 class="about-tagline two">
-        Play.&nbsp;&nbsp;&nbsp;&nbsp; Pause.&nbsp;&nbsp;&nbsp;&nbsp; Stop
-      </h3>
-      <img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-11-at-12.41-1.png" class="trbo-player">
-      <div class="partner-row">
-        <h4 class="partner-title">
-          Our Partner Network
-        </h4>
-        <img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-11-at-1.15-1.png" class="partners">
-      </div>
-    </div>
-    </div>
-  </div>
-
-  <!---- Hero Starts --->
-  <div class="trbo-hero-section">
-    <h1 class="hero-title">TRBO ADvance is a multi-channel digital communications & marketing practice especialized in Medical Beauty. We combine design, technology and business strategy into a unified discipline powerful enough to propel practices forward.</h1>
-    <h2 class="hero-title sub">Schedule a strategy session</h2>
-  </div>
-
-  <!---- Footer Starts --->
-
-  <footer class="trbo-footer">
-    <div class="footer-top">
-      <div class="footer-testimonial">
-          <h4 class="testimonial">"The most incredible thing of working with TRBO has been the ability to learn how to create a seamless experience from the digital arena to the physical practice and retain each patient."</h4>
-          <h5 class="testimonial-author">Dr, Mike, MD, Board Certified Pastic Surgeon</h5>
-      </div>
-      <div class="footer-content">
-        <div class="email-col">
-          <h4 class="email-title">Enter your email<br>and lets start a conversation.</h4>
-          <div class="email-divider"></div>
-        </div>
-        <div class="footer-nav">
-          <div class="nav-col-left">
-            <a href="#" class="footer-nav-link">Our Work</a>
-            <a href="#" class="footer-nav-link">Approach</a>
-            <a href="#" class="footer-nav-link">About Us</a>
-            <a href="#" class="footer-nav-link">Contact</a>
-            <a href="#" class="footer-nav-link">Twitter</a>
-            <a href="#" class="footer-nav-link">Facebook</a>
-          </div>
-          <div class="nav-col-right">
-            <a href="#" class="footer-nav-link">TRBO Direct</a>
-            <a href="#" class="footer-nav-link">Podcast</a>
-            <a href="#" class="footer-nav-link">Jobs</a>
-            <a href="#" class="footer-nav-link">Blog</a>
-            <a href="#" class="footer-nav-link">TRBO Incubator Program</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="bottom-col-left">
-          <p class="footer-credits">© 2021 TRBO ADvance. All rights reserved.</p>
-          <img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/02/google-logo.svg">
-        </div>
-        <div class="bottom-col-right">
-            <div class="social-icons">
-              <img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/02/SOCIAL-MEDIA-ICONS.svg">
-            </div>
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-          </div>
-        </div>
-  </footer>
-</main>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.min.js" integrity="sha256-eEa1kEtgK9ZL6h60VXwDsJ2rxYCwfxi40VZ9E0XwoEA=" crossorigin="anonymous"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/amplitudejs/5.3.0/amplitude.min.js" integrity="sha512-ErqyZGn7QDd8mXiqcfF3c/DSayRB/vFehbguIgGr5l+1ZDgEJmugwxsCwzZfXUT2EuygsC+DHDWzP241rn98gQ==" crossorigin="anonymous"></script>
   <script>
-/*Practice Header*/
-$(function() {
-$('.practice-on').on('click', function() {
-$('.approach-txt').removeClass('on');
-$('.our-work-header').removeClass('our-work-on');
-$('.approach-header').removeClass('approach-on');
-$('.capabilities-header').removeClass('capabilities-on');
-$('.about-header').removeClass('about-on');
-$('.our-work-on').removeClass('active');
-$('.approach-on').removeClass('active');
-$('.capabilities-on').removeClass('active');
-$('.about-on').removeClass('active');
-$('.practice-header').delay('1500').toggleClass('practice-on');
-$('.practice-list').delay('2500').toggleClass('on');
-$('.practice-on').toggleClass('active');
-$('.nav-link').removeClass('blue');
-$('a.practice-on').removeClass('blue');
-$('.nav-link').removeClass('white');
-$('a.practice-on').removeClass('white');
-$('.trbo-logo').removeClass('off');
-$('.trbo-logo-white').removeClass('active');
-$('.trbo-logo-blue').removeClass('active');
-});
+    /*Amplitude Audio Player*/
+Amplitude.init({
+    "songs": [{
+        "name": "CLI Overview",
+        "artist": "ZEISS",
+        "album": "CLI",
+        "url": "https://goel-vision.contact-lens-intolerance.com/wp-content/uploads/2021/04/CLI_Overviewmp3.mp3"
+    }, {
+        "name": "CLI Symptoms",
+        "artist": "ZEISS",
+        "album": "CLI",
+        "url": "https://goel-vision.contact-lens-intolerance.com/wp-content/uploads/2021/04/CLI_Symptoms-mp3.mp3"
+    }
+    ],
+    callbacks: {
+			 song_change: function(){
+				 console.log(Amplitude.getSongPlayedPercentage())
+			 }
+		 }
 });
 
-/*Our Work Header*/
-$(function() {
-$('.our-work-on').on('click', function() {
-$('.practice-list').removeClass('on');
-$('.approach-txt').removeClass('on');
-$('.practice-header').removeClass('practice-on');
-$('.approach-header').removeClass('approach-on');
-$('.capabilities-header').removeClass('capabilities-on');
-$('.about-header').removeClass('about-on');
-$('.practice-on').removeClass('active');
-$('.approach-on').removeClass('active');
-$('.capabilities-on').removeClass('active');
-$('.about-on').removeClass('active');
-$('.our-work-header').delay('1500').toggleClass('our-work-on');
-$('.our-work-on').toggleClass('active');
-$('.nav-link').removeClass('blue');
-$('a.practice-on').removeClass('blue');
-$('.nav-link').removeClass('white');
-$('a.practice-on').removeClass('white');
-$('.trbo-logo').removeClass('off');
-$('.trbo-logo-white').removeClass('active');
-$('.trbo-logo-blue').removeClass('active');
-});
-});
+var circle = document.querySelector('.circle1');
+var radius = circle.r.baseVal.value;
+var circumference = radius * 2 * Math.PI;
 
-/*Approach Header*/
-$(function() {
-$('.approach-on').on('click', function() {
-$('.practice-list').removeClass('on');
-$('.practice-header').removeClass('practice-on');
-$('.our-work-header').removeClass('our-work-on');
-$('.capabilities-header').removeClass('capabilities-on');
-$('.about-header').removeClass('about-on');
-$('.practice-on').removeClass('active');
-$('.our-work-on').removeClass('active');
-$('.capabilities-on').removeClass('active');
-$('.about-on').removeClass('active');
-$('.approach-header').delay('1500').toggleClass('approach-on');
-$('.approach-txt').delay('2500').toggleClass('on');
-$('.approach-on').toggleClass('active');
-$('.nav-link').removeClass('blue');
-$('a.practice-on').removeClass('blue');
-$('.nav-link').addClass('white');
-$('a.practice-on').addClass('white');
-$('.trbo-logo').addClass('off');
-$('.trbo-logo-white').addClass('active');
-});
-});
+circle.style.strokeDasharray = `${circumference} ${circumference}`;
+circle.style.strokeDashoffset = `${circumference}`;
 
-/*Capabilities Header*/
-$(function() {
-$('.capabilities-on').on('click', function() {
-$('.practice-list').removeClass('on');
-$('.approach-txt').removeClass('on');
-$('.practice-header').removeClass('practice-on');
-$('.our-work-header').removeClass('our-work-on');
-$('.approach-header').removeClass('approach-on');
-$('.about-header').removeClass('about-on');
-$('.practice-on').removeClass('active');
-$('.our-work-on').removeClass('active');
-$('.approach-on').removeClass('active');
-$('.about-on').removeClass('active');
-$('.capabilities-header').delay('1500').toggleClass('capabilities-on');
-$('.capabilities-on').toggleClass('active');
-$('.nav-link').removeClass('blue');
-$('a.practice-on').removeClass('blue');
-$('.nav-link').addClass('white');
-$('a.practice-on').addClass('white');
-$('.trbo-logo-blue').removeClass('active');
-$('.trbo-logo').addClass('off');
-$('.trbo-logo-white').addClass('active');
-});
-});
+function setProgress(percent) {
+    const offset = circumference - percent / 100 * circumference;
+    circle.style.strokeDashoffset = offset;
+}
 
-/*About Header*/
-$(function() {
-$('.about-on').on('click', function() {
-$('.practice-list').removeClass('on');
-$('.approach-txt').removeClass('on');
-$('.practice-header').removeClass('practice-on');
-$('.our-work-header').removeClass('our-work-on');
-$('.approach-header').removeClass('approach-on');
-$('.capabilities-header').removeClass('capabilities-on');
-$('.practice-on').removeClass('active');
-$('.our-work-on').removeClass('active');
-$('.approach-on').removeClass('active');
-$('.capabilities-on').removeClass('active');
-$('.about-header').delay('1500').toggleClass('about-on');
-$('.about-on').toggleClass('active');
-$('.nav-link').removeClass('white');
-$('a.practice-on').removeClass('white');
-$('.nav-link').toggleClass('blue');
-$('a.practice-on').toggleClass('blue');
-$('.trbo-logo').addClass('off');
-$('.trbo-logo-white').removeClass('active');
-$('.trbo-logo-blue').toggleClass('active');
-});
-});
-
-/*TRBO Logo*/
-$(function() {
-$('.logo-container').on('click', function() {
-$('.practice-list').removeClass('on');
-$('.approach-txt').removeClass('on');
-$('.practice-header').removeClass('practice-on');
-$('.our-work-header').removeClass('our-work-on');
-$('.approach-header').removeClass('approach-on');
-$('.capabilities-header').removeClass('capabilities-on');
-$('.about-header').removeClass('about-on');
-$('.practice-on').removeClass('active');
-$('.our-work-on').removeClass('active');
-$('.approach-on').removeClass('active');
-$('.about-on').removeClass('active');
-$('.capabilities-on').removeClass('active');
-$('.trbo-logo').removeClass('off');
-$('.trbo-logo-white').removeClass('active');
-$('.trbo-logo-blue').removeClass('active');
-$('.nav-link').removeClass('white');
-$('a.practice-on').removeClass('white');
-$('.nav-link').removeClass('blue');
-$('a.practice-on').removeClass('blue');
-});
-});
+const input = document.querySelector('.slider-1');
+const temp = document.querySelector('.btn-1');
+setProgress(input.value);
 
 
-</script>
-</body>
+(function() {
+    temp.addEventListener('click', function(e) {
+        if (input.value < 101 && input.value > -1) {
+            setProgress(input.value);
+        }
+        setTimeout(arguments.callee, 1);
+    });
+})();
 
+/*Progress Circle 2*/
+
+var circle2 = document.querySelector('.circle2');
+var radius2 = circle2.r.baseVal.value;
+var circumference2 = radius2 * 2 * Math.PI;
+
+circle2.style.strokeDasharray = `${circumference2} ${circumference2}`;
+circle2.style.strokeDashoffset = `${circumference2}`;
+
+function setProgress2(percent2) {
+    const offset2 = circumference2 - percent2 / 100 * circumference2;
+    circle2.style.strokeDashoffset = offset2;
+}
+
+const input2 = document.querySelector('.slider-2');
+const temp2 = document.querySelector('.btn-2');
+setProgress2(input2.value);
+
+(function() {
+    temp2.addEventListener('click', function(e) {
+        if (input2.value < 101 && input2.value > -1) {
+            setProgress2(input2.value);
+        }
+        setTimeout(arguments.callee, 1);
+    });
+})();
+  </script>
+  </body>
 </html>
