@@ -1,137 +1,137 @@
 <!doctype html>
 <html class="no-js" lang="">
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <meta name="theme-color" content="#fafafa">
-</head>
-<body>
-  <div class="audio-player-row">
-    <div class="audio-player-col">
-      	<div class="zeiss-audio-player">
-		<div class="audio-player-body">
-			<div class="audio-player-controls">
-				<button class="audio-player-play amplitude-play btn-1" data-amplitude-song-index="0">PLAY</button>
-				<button class="audio-player-pause amplitude-pause" data-amplitude-song-index="0">PAUSE</button>
-				<button class="audio-player-stop amplitude-stop" data-amplitude-song-index="0">STOP</button>
-			</div>
-			<div class="audio-player-progress-circle">
-				<svg class="progress-ring" width="60" height="60">
-				  <circle class="progress-ring__circle circle1" stroke="#6200EE" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
-				</svg>
-			</div>
-		</div>
-		<!--<div class="audio-player-progress">
-			<progress class="amplitude-song-played-progress" amplitude-main-song-played-progress="true" id="song-played-progress"></progress>
-		</div>-->
-		<div class="audio-player-footer">
-			<input type="range" class="amplitude-song-slider slider-1" step=".1" data-amplitude-song-index="0"/>
-			<p class="audio-player-footer-txt"><strong>TO LEARN MORE</strong> Listen to our Audio Guide</p>
-		</div>
-	</div>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#fafafa">
+  </head>
+  <body>
+    <div class="audio-player-row">
+      <div class="audio-player-col">
+        <div class="zeiss-audio-player">
+          <div class="audio-player-body">
+            <div class="audio-player-controls">
+              <button class="audio-player-play amplitude-play btn-1" data-amplitude-song-index="0">PLAY</button>
+              <button class="audio-player-pause amplitude-pause" data-amplitude-song-index="0">PAUSE</button>
+              <button class="audio-player-stop amplitude-stop" data-amplitude-song-index="0">STOP</button>
+            </div>
+            <div class="audio-player-progress-circle">
+              <svg class="progress-ring" width="60" height="60">
+                <circle class="progress-ring__circle circle1" stroke="#6200EE" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
+              </svg>
+            </div>
+          </div>
+          <!--<div class="audio-player-progress">
+            <progress class="amplitude-song-played-progress" amplitude-main-song-played-progress="true" id="song-played-progress"></progress>
+            </div>-->
+          <div class="audio-player-footer">
+            <input type="range" class="amplitude-song-slider slider-1" step=".1" data-amplitude-song-index="0"/>
+            <p class="audio-player-footer-txt"><strong>TO LEARN MORE</strong> Listen to our Audio Guide</p>
+          </div>
+        </div>
+      </div>
+      <div class="audio-player-col">
+        <div class="zeiss-audio-player">
+          <div class="audio-player-body">
+            <div class="audio-player-controls">
+              <button class="audio-player-play-two btn-2 amplitude-play" data-amplitude-song-index="1">PLAY</button>
+              <button class="audio-player-pause-two amplitude-pause" data-amplitude-song-index="1">PAUSE</button>
+              <button class="audio-player-stop amplitude-stop" data-amplitude-song-index="1">STOP</button>
+            </div>
+            <div class="audio-player-progress-circle">
+              <svg class="progress-ring-2" width="60" height="60">
+                <circle class="circle2" stroke="#6200EE" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
+              </svg>
+            </div>
+          </div>
+          <!--<div class="audio-player-progress">
+            <progress class="amplitude-song-played-progress" amplitude-main-song-played-progress="true" id="song-played-progress"></progress>
+            </div>-->
+          <div class="audio-player-footer">
+            <input type="range" class="amplitude-song-slider slider-2" step=".1" data-amplitude-song-index="1"/>
+            <p class="audio-player-footer-txt"><strong>TO LEARN MORE</strong> Listen to our Audio Guide</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="audio-player-col">
-      	<div class="zeiss-audio-player">
-		<div class="audio-player-body">
-			<div class="audio-player-controls">
-				<button class="audio-player-play-two btn-2 amplitude-play" data-amplitude-song-index="1">PLAY</button>
-				<button class="audio-player-pause-two amplitude-pause" data-amplitude-song-index="1">PAUSE</button>
-				<button class="audio-player-stop amplitude-stop" data-amplitude-song-index="1">STOP</button>
-			</div>
-			<div class="audio-player-progress-circle">
-				<svg class="progress-ring-2" width="60" height="60">
-				  <circle class="circle2" stroke="#6200EE" stroke-width="4" fill="transparent" r="26" cx="30" cy="30"/>
-				</svg>
-			</div>
-		</div>
-		<!--<div class="audio-player-progress">
-			<progress class="amplitude-song-played-progress" amplitude-main-song-played-progress="true" id="song-played-progress"></progress>
-		</div>-->
-		<div class="audio-player-footer">
-			<input type="range" class="amplitude-song-slider slider-2" step=".1" data-amplitude-song-index="1"/>
-			<p class="audio-player-footer-txt"><strong>TO LEARN MORE</strong> Listen to our Audio Guide</p>
-		</div>
-	</div>
-    </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/amplitudejs/5.3.0/amplitude.min.js" integrity="sha512-ErqyZGn7QDd8mXiqcfF3c/DSayRB/vFehbguIgGr5l+1ZDgEJmugwxsCwzZfXUT2EuygsC+DHDWzP241rn98gQ==" crossorigin="anonymous"></script>
-  <script>
-    /*Amplitude Audio Player*/
-Amplitude.init({
-    "songs": [{
-        "name": "CLI Overview",
-        "artist": "ZEISS",
-        "album": "CLI",
-        "url": "https://goel-vision.contact-lens-intolerance.com/wp-content/uploads/2021/04/CLI_Overviewmp3.mp3"
-    }, {
-        "name": "CLI Symptoms",
-        "artist": "ZEISS",
-        "album": "CLI",
-        "url": "https://goel-vision.contact-lens-intolerance.com/wp-content/uploads/2021/04/CLI_Symptoms-mp3.mp3"
-    }
-    ],
-    callbacks: {
-			 song_change: function(){
-				 console.log(Amplitude.getSongPlayedPercentage())
-			 }
-		 }
-});
-
-var circle = document.querySelector('.circle1');
-var radius = circle.r.baseVal.value;
-var circumference = radius * 2 * Math.PI;
-
-circle.style.strokeDasharray = `${circumference} ${circumference}`;
-circle.style.strokeDashoffset = `${circumference}`;
-
-function setProgress(percent) {
-    const offset = circumference - percent / 100 * circumference;
-    circle.style.strokeDashoffset = offset;
-}
-
-const input = document.querySelector('.slider-1');
-const temp = document.querySelector('.btn-1');
-setProgress(input.value);
-
-
-(function() {
-    temp.addEventListener('click', function(e) {
-        if (input.value < 101 && input.value > -1) {
-            setProgress(input.value);
-        }
-        setTimeout(arguments.callee, 1);
-    });
-})();
-
-/*Progress Circle 2*/
-
-var circle2 = document.querySelector('.circle2');
-var radius2 = circle2.r.baseVal.value;
-var circumference2 = radius2 * 2 * Math.PI;
-
-circle2.style.strokeDasharray = `${circumference2} ${circumference2}`;
-circle2.style.strokeDashoffset = `${circumference2}`;
-
-function setProgress2(percent2) {
-    const offset2 = circumference2 - percent2 / 100 * circumference2;
-    circle2.style.strokeDashoffset = offset2;
-}
-
-const input2 = document.querySelector('.slider-2');
-const temp2 = document.querySelector('.btn-2');
-setProgress2(input2.value);
-
-(function() {
-    temp2.addEventListener('click', function(e) {
-        if (input2.value < 101 && input2.value > -1) {
-            setProgress2(input2.value);
-        }
-        setTimeout(arguments.callee, 1);
-    });
-})();
-  </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/amplitudejs/5.3.0/amplitude.min.js" integrity="sha512-ErqyZGn7QDd8mXiqcfF3c/DSayRB/vFehbguIgGr5l+1ZDgEJmugwxsCwzZfXUT2EuygsC+DHDWzP241rn98gQ==" crossorigin="anonymous"></script>
+    <script>
+      /*Amplitude Audio Player*/
+      Amplitude.init({
+      "songs": [{
+          "name": "CLI Overview",
+          "artist": "ZEISS",
+          "album": "CLI",
+          "url": "https://goel-vision.contact-lens-intolerance.com/wp-content/uploads/2021/04/CLI_Overviewmp3.mp3"
+      }, {
+          "name": "CLI Symptoms",
+          "artist": "ZEISS",
+          "album": "CLI",
+          "url": "https://goel-vision.contact-lens-intolerance.com/wp-content/uploads/2021/04/CLI_Symptoms-mp3.mp3"
+      }
+      ],
+      callbacks: {
+      song_change: function(){
+       console.log(Amplitude.getSongPlayedPercentage())
+      }
+      }
+      });
+      
+      var circle = document.querySelector('.circle1');
+      var radius = circle.r.baseVal.value;
+      var circumference = radius * 2 * Math.PI;
+      
+      circle.style.strokeDasharray = `${circumference} ${circumference}`;
+      circle.style.strokeDashoffset = `${circumference}`;
+      
+      function setProgress(percent) {
+      const offset = circumference - percent / 100 * circumference;
+      circle.style.strokeDashoffset = offset;
+      }
+      
+      const input = document.querySelector('.slider-1');
+      const temp = document.querySelector('.btn-1');
+      setProgress(input.value);
+      
+      
+      (function() {
+      temp.addEventListener('click', function(e) {
+          if (input.value < 101 && input.value > -1) {
+              setProgress(input.value);
+          }
+          setTimeout(arguments.callee, 1);
+      });
+      })();
+      
+      /*Progress Circle 2*/
+      
+      var circle2 = document.querySelector('.circle2');
+      var radius2 = circle2.r.baseVal.value;
+      var circumference2 = radius2 * 2 * Math.PI;
+      
+      circle2.style.strokeDasharray = `${circumference2} ${circumference2}`;
+      circle2.style.strokeDashoffset = `${circumference2}`;
+      
+      function setProgress2(percent2) {
+      const offset2 = circumference2 - percent2 / 100 * circumference2;
+      circle2.style.strokeDashoffset = offset2;
+      }
+      
+      const input2 = document.querySelector('.slider-2');
+      const temp2 = document.querySelector('.btn-2');
+      setProgress2(input2.value);
+      
+      (function() {
+      temp2.addEventListener('click', function(e) {
+          if (input2.value < 101 && input2.value > -1) {
+              setProgress2(input2.value);
+          }
+          setTimeout(arguments.callee, 1);
+      });
+      })();
+    </script>
   </body>
 </html>
