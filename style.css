@@ -170,6 +170,8 @@ a {
 }
 
 .swiper-pagination {
+	width: -moz-fit-content !important;
+	width: -webkit-fit-content !important;
 	width:  fit-content !important;
 	right:  6% !important;
 	bottom:  10.5% !important;
