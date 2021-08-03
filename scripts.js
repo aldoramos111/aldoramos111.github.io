@@ -1,12 +1,11 @@
 //Swiper
 const swiper = new Swiper('.swiper-container', {
-  fadeEffect: { crossFade: true },
-  effect: 'coverflow',
-  coverflowEffect: {
-    depth: 500
+  effect: 'fade',
+  fadeEffect: {
+    crossFase: true
   },
   preventInteractionOnTransition: false,
-  speed: 1500,
+  speed: 800,
   spaceBetween: 100,
   pagination: {
     el: '.swiper-pagination',
@@ -41,3 +40,15 @@ const swiper = new Swiper('.swiper-container', {
         StopEmbedVideo();
       });
     });
+
+var iframe = document.getElementById('embedvideo');
+
+// $f == Froogaloop
+var player = $f(iframe);
+
+// bind events
+var playButton = document.getElementById("closevid");
+playButton.addEventListener("click", function() {
+  player.api("play");
+});
+
