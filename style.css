@@ -13,6 +13,7 @@ body {
   margin-bottom: 55px;
   z-index: 2;
   position: relative;
+  background:  #000;
 }
 
 header, main, .placeholder {
@@ -30,6 +31,15 @@ header {
 	align-items:  center;
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 25%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0) 100%);
+}
+
+.mobile-nav-toggle {
+	display:  none;
+	position: absolute;
+	right:  8vw;
+	top:  5vw;
+	color:  #fff;
+	width: 30px;
 }
 
 main {
@@ -115,7 +125,8 @@ a {
 .vfx-project-info {
 }
 
-.vfx-project-title {
+.vfx-project-title,
+.vfx-page-title {
 	font-size: calc(20px + 1.5vw);
 	font-family: "Geometos";
 	font-weight: 400;
@@ -126,7 +137,7 @@ a {
 .vfx-project-data {
 	font-size: calc(14px + .2vw);
 	font-family: "Work Sans";
-	color:  #5958F1;
+	color:  #fff;
 	margin-bottom:  .6em;
 }
 
@@ -156,7 +167,7 @@ a {
 .vfx-project-slide.blast-beat {
 	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-posterr.jpg");
 	background-position:  center;
-	background-size: 22%;
+	background-size: 24%;
 	background-repeat: no-repeat;
 	background-color:  #060606;
 }
@@ -174,7 +185,7 @@ a {
 	width: -webkit-fit-content !important;
 	width:  fit-content !important;
 	right:  6% !important;
-	bottom:  10.5% !important;
+	bottom:  5vw !important;
 	left:  auto !important;
 }
 
@@ -207,7 +218,7 @@ a {
 	background:  #F5F5F5;
 	position:  absolute;
 	right:  6.7% !important;
-	bottom:  17.5% !important;
+	bottom:  9vw !important;
 	z-index:  9999;
 	transform: skewX(-14deg);
 	font-size:  calc(13px + .1vw);
@@ -242,6 +253,12 @@ a {
 	z-index: 999999999 !important;
 }
 
+.modal-header {
+	position: absolute;
+	right: -40px;
+	top:  10px;
+}
+
 button {
 	border-radius: 0 !important;
 }
@@ -265,10 +282,14 @@ button {
 	border:  none;
 }
 
+.btn-close {
+	background: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/cross-1.svg");
+}
+
 .vfx-about-intro {
 	width:  100%;
-	padding:  6% 0;
-	background:  #000;
+	padding:  8%;
+	background:  #0a0a0a;
 }
 
 .vfx-about-intro p {
@@ -354,4 +375,161 @@ footer {
 
 .vfx-studio-img img {
 	width:  100%;
+}
+
+.vfx-page-title {
+	text-align: center;
+	color: #fff;
+	margin-bottom:  40px;
+}
+
+p.vfx-about-intro-txt {
+	font-size: calc(20px + .2vw);
+	line-height: calc(28px + .2vw);
+	font-weight: 400;
+	width:  65%;
+	max-width: 100%;
+}
+
+/*0B0B0B*/
+
+/*Media Queries*/
+
+@media only screen and (max-width:1024px) {
+	.vfx-logo-container img {
+		max-width: 200px;
+	}
+	.footer-contact-col,
+	.footer-credentials-col {
+		width: 48%;
+	}
+
+	
+}
+
+@media only screen and (max-width:800px) {
+
+	nav ul {
+		min-width: initial;
+		width: 55vw;
+	}
+
+}
+
+@media only screen and (max-width:750px) {
+		nav {
+		width: 100%;
+		position: absolute;
+		top:  0;
+		left:  0;
+		right:  0;
+		margin:  0 auto;
+	}
+	#navList {
+		min-width: initial;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    min-height: 220px;
+    background: black;
+    padding: 6% 0;
+    display: none;
+	}
+	#navList.active {
+		display: flex;
+	}
+	.mobile-nav-toggle {
+		display:  block;
+		z-index: 9999;
+	}
+	/*Projects Slides*/
+	.vfx-project-slide {
+		padding:  6% 6% 20% 6%;
+	}
+	.swiper-pagination {
+		width: 100% !important;
+		max-width: 100% !important;
+		right:  0 !important;
+		left:  0 !important;
+		bottom:  6.5vw !important;
+	}
+	.swiper-pagination-bullet {
+		width:  19%;
+	}
+	.swiper-pagination-bullet {
+		margin-left: 4% !important;
+	}
+	.vfx-reel-btn {
+		width: 170px;
+		padding:  8px 0;
+		bottom:  16vw !important;
+	}
+	footer {
+		flex-direction: column;
+		padding:  6.5% 0;
+		height: 24vh;
+	}
+	.footer-contact-col,
+	.footer-credentials-col{
+		width: 80%;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+	.footer-icon {
+		order:  -1;
+	}
+	.footer-credentials-col p,
+	.footer-contact-col p {
+		font-size: 11px;
+	}
+	body {
+		margin-bottom: 24vh;
+	}
+	.vfx-about-intro p {
+		font-size: calc(12px + .2vw);
+    line-height: calc(16px + .2vw);
+	}
+	.vfx-about-intro {
+		padding:  12% 10%;
+		min-height: 75vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.vfx-about-intro.home {
+		min-height: 35vh;
+	}
+	.vfx-project-slide.blast-beat {
+		background-size: cover;
+	}
+	.modal-dialog {
+		max-width: 100% !important;
+	}
+	.modal-header {
+	position: absolute;
+	right: 10px;
+	top:  -40px;
+}
+p.vfx-about-intro-txt {
+	width: 100%;
+}
+
+}
+
+
+@media only screen and (max-width4500px) {
+	
+}
+
+@media only screen and (max-width:280px) {
+	.vfx-reel-btn {
+		width: 116px;
+		font-size:  10px;
+	}
+}
+
+@media only screen and (max-width:70em) and (min-height:37.5em) { 
+	
 }
