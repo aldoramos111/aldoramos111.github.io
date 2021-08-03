@@ -519,8 +519,9 @@ p.vfx-about-intro-txt {
 }
 
 
-@media only screen and (max-width4500px) {
-	
+@media only screen and (max-width500px) {
+	.vfx-project-slide {
+		height: 95vh;
 }
 
 @media only screen and (max-width:280px) {
