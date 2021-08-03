@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Geometos";
-  src: url("fonts/Geometos.ttf") format("ttf")
+  src: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/Geometos.ttf") format("ttf")
 }
 
 * {
@@ -150,22 +150,23 @@ a {
 }
 
 .vfx-project-slide.sanctorum {
-	background-image: url("media/sanctorum-hero-img.jpg");
+	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-hero-img.jpg");
 }
 
 .vfx-project-slide.blast-beat {
-	background-image: url("media/blast-beat-posterr.jpg");
-	background-position:  bottom;
-	background-size: auto;
-	background-repeat: repeat;
+	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-posterr.jpg");
+	background-position:  center;
+	background-size: 22%;
+	background-repeat: no-repeat;
+	background-color:  #060606;
 }
 
 .vfx-project-slide.wk-sarah {
-	background-image: url("media/wk-sarah-hero-img.jpg");
+	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/wk-sarah-hero-img.jpg");
 }
 
 .vfx-project-slide.teo {
-	background-image: url("media/teo-hero-img.jpg");
+	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/teo.png");
 }
 
 .swiper-pagination {
