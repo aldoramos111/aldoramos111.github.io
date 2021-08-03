@@ -52,3 +52,9 @@ playButton.addEventListener("click", function() {
   player.api("play");
 });
 
+//Mobile Nav Toggle
+
+function mobileNavToggle() {
+  var element = document.getElementById("navList");
+  element.classList.toggle("active");
+}
