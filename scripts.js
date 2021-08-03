@@ -1,8 +1,8 @@
 //Swiper
 const swiper = new Swiper('.swiper-container', {
-  effect: 'fade',
-  fadeEffect: {
-    crossFase: true
+  effect: 'coverflow',
+  coverflowEffect: {
+    depth: 100
   },
   preventInteractionOnTransition: false,
   speed: 800,
