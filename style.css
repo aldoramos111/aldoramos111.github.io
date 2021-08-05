@@ -449,16 +449,16 @@ p.vfx-about-intro-txt {
 }
 
 .vfx-project-data-single {
-	font-size:  calc(12px + .5vw);
+	font-size:  calc(13px + .5vw);
 	line-height: 1em;
 	color:  #5959EF;
 	font-family:  "Work Sans";
-	font-weight: 300;
-	margin-botom:  10px;
+	font-weight: 400;
+	margin-bottom:  10px;
 }
 
 .vfx-project-title-single {
-	font-size:  calc(20px + .5vw);
+	font-size:  calc(24px + .5vw);
 	line-height: .9em;
 	color:  #fff;
 	font-family:  "Geometos";
