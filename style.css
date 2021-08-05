@@ -483,8 +483,8 @@ p.vfx-about-intro-txt {
 	opacity: 1;
 }
 
-.vfx-project-overlay:hover .vfx-project-data-single,
-.vfx-project-overlay:hover .vfx-project-title-single{
+.vfx-project-container:hover .vfx-project-data-single,
+.vfx-project-container:hover .vfx-project-title-single{
 	opacity: 0;
 }
 
