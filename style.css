@@ -166,10 +166,6 @@ a {
 
 .vfx-project-slide.blast-beat {
 	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-hero-img-2.jpg");
-	background-position:  center;
-	background-size: 24%;
-	background-repeat: no-repeat;
-	background-color:  #060606;
 }
 
 .vfx-project-slide.wk-sarah {
@@ -177,7 +173,7 @@ a {
 }
 
 .vfx-project-slide.teo {
-	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/TEO2.png");
+	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/un_dos-teo_-scaled.jpg");
 }
 
 .swiper-pagination {
@@ -488,6 +484,7 @@ p.vfx-about-intro-txt {
 
 .vfx-project-overlay:hover {
 	opacity: 1;
+	border:  solid 3px #5959EF;
 }
 
 .vfx-project-container:hover .vfx-project-data-single,
