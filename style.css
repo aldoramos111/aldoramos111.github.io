@@ -483,6 +483,11 @@ p.vfx-about-intro-txt {
 	opacity: 1;
 }
 
+.vfx-project-overlay:hover .vfx-project-data-single,
+.vfx-project-overlay:hover .vfx-project-title-single{
+	opacity: 0;
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width:1024px) {
