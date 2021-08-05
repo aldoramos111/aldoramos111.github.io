@@ -449,7 +449,7 @@ p.vfx-about-intro-txt {
 }
 
 .vfx-project-data-single {
-	font-size:  calc(13px + .5vw);
+	font-size:  calc(12px + .5vw);
 	line-height: 1em;
 	color:  #5959EF;
 	font-family:  "Work Sans";
