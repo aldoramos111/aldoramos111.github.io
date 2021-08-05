@@ -215,7 +215,7 @@ a {
 	margin-left:  20px !important;
 }
 
-.swiper-pagination-bullet:nth-child(1) {
+.swiper-pagination-bullet:nth-child-(1) {
 	margin-left: 0 !important;
 }
 
