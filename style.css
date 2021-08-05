@@ -449,7 +449,7 @@ p.vfx-about-intro-txt {
 }
 
 .vfx-project-data-single {
-	font-size:  calc(12px + .5vw);
+	font-size:  calc(10px + .5vw);
 	line-height: 1em;
 	color:  #5959EF;
 	font-family:  "Work Sans";
@@ -474,10 +474,7 @@ p.vfx-about-intro-txt {
 	right: 0;
 	bottom: 0;
 	z-index: 2;
-	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/project-overlay.svg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background: linear-gradient(73.65deg, rgba(89, 88, 241, 0.41) 8.17%, rgba(37, 37, 99, 0.41) 50.28%, rgba(25, 25, 66, 0.272097) 101.17%, rgba(0, 0, 0, 0) 102.46%, rgba(0, 0, 0, 0) 102.46%, rgba(14, 14, 37, 0.1722) 102.46%);
 }
 
 /*Media Queries*/
