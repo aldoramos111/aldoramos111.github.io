@@ -165,7 +165,7 @@ a {
 }
 
 .vfx-project-slide.blast-beat {
-	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-posterr.jpg");
+	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-hero-img-2.jpg");
 	background-position:  center;
 	background-size: 24%;
 	background-repeat: no-repeat;
@@ -444,6 +444,10 @@ p.vfx-about-intro-txt {
 
 .vfx-project-container.sanctorum {
 	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-hero-img.jpg");
+}
+
+.vfx-project-container.blast-beat {
+	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-hero-img-2.jpg");
 }
 
 .vfx-project-content {
