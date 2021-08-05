@@ -407,6 +407,7 @@ p.vfx-about-intro-txt {
 	width:  100%;
 	display:  flex;
 	justify-content: space-between;
+	margin-bottom:  4%;
 }
 
 .vfx-projects-col {
@@ -444,6 +445,14 @@ p.vfx-about-intro-txt {
 
 .vfx-project-container.blast-beat {
 	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-hero-img-2.jpg");
+}
+
+.vfx-project-container.blast-beat-2 {
+	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-hero-img-1.jpg");
+}
+
+.vfx-project-container.wk-sarah {
+	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/QMAS_isla1.0400.jpg");
 }
 
 .vfx-project-content {
