@@ -475,6 +475,12 @@ p.vfx-about-intro-txt {
 	bottom: 0;
 	z-index: 2;
   background: linear-gradient(73.65deg, rgba(89, 88, 241, 0.41) 8.17%, rgba(37, 37, 99, 0.41) 50.28%, rgba(25, 25, 66, 0.272097) 101.17%, rgba(0, 0, 0, 0) 102.46%, rgba(0, 0, 0, 0) 102.46%, rgba(14, 14, 37, 0.1722) 102.46%);
+  opacity: 0;
+  transition: opacity .2s linear;
+}
+
+.vfx-project-overlay:hover {
+	opacity: 1;
 }
 
 /*Media Queries*/
