@@ -393,6 +393,81 @@ p.vfx-about-intro-txt {
 
 /*0B0B0B*/
 
+/*Projects*/
+
+.vfx-projects {
+	width:  100%;
+	padding:  6%;
+	background:  #000;
+}
+
+.vfx-projects-row {
+	width:  100%;
+	display:  flex;
+	justify-content: space-between;
+}
+
+.vfx-projects-col {
+	width:  46%;
+}
+
+.vfx-project-container {
+	width:  100%;
+	height:  25vw;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: bottom;
+	padding:  8%;
+	background:  #ddd;
+	background-size:  cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.vfx-project-container a {
+	width:  100%;
+	height: 100%;
+	z-index:  3;
+}
+
+.vfx-project-container.sanctorum {
+	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-hero-img.jpg");
+}
+
+.vfx-project-content {
+
+}
+
+.vfx-project-data-single {
+	font-size:  calc(14px + 1vw);
+	line-height: 1em;
+	color:  #5959EF;
+	font-family:  "Work Sans";
+	font-weight: 300;
+}
+
+.vfx-project-title-single {
+	font-size:  calc(20px + 1vw);
+	line-height: 1em;
+	color:  #fff;
+	font-family:  "Geometos";
+	font-weight: 400;
+}
+
+.vfx-project-overlay {
+	width:  100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	background: linear-gradient(65.68deg, rgba(89, 88, 241, 0.41) 8.35%, rgba(37, 37, 99, 0.41) 50.45%, rgba(0, 0, 0, 0.41) 62.74%, rgba(0, 0, 0, 0) 62.74%);
+;
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width:1024px) {
