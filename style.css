@@ -474,8 +474,10 @@ p.vfx-about-intro-txt {
 	right: 0;
 	bottom: 0;
 	z-index: 2;
-	background: linear-gradient(65.68deg, rgba(89, 88, 241, 0.41) 8.35%, rgba(37, 37, 99, 0.41) 50.45%, rgba(0, 0, 0, 0.41) 62.74%, rgba(0, 0, 0, 0) 62.74%);
-;
+	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/project-overlay.svg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /*Media Queries*/
