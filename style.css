@@ -417,8 +417,8 @@ p.vfx-about-intro-txt {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	align-items: bottom;
-	padding:  8%;
+	justify-content: flex-end;
+	padding: 8%;
 	background:  #ddd;
 	background-size:  cover;
 	background-position: center;
@@ -454,11 +454,12 @@ p.vfx-about-intro-txt {
 	color:  #5959EF;
 	font-family:  "Work Sans";
 	font-weight: 300;
+	margin-botom:  10px;
 }
 
 .vfx-project-title-single {
-	font-size:  calc(20px + .7vw);
-	line-height: 1em;
+	font-size:  calc(20px + .5vw);
+	line-height: .9em;
 	color:  #fff;
 	font-family:  "Geometos";
 	font-weight: 400;
