@@ -33,6 +33,10 @@ header {
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 25%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0) 100%);
 }
 
+.btn-check:focus+.btn, .btn:focus {
+	box-shadow:  0 0 0 0.25rem #5959EF40;
+}
+
 .mobile-nav-toggle {
 	display:  none;
 	position: absolute;
@@ -114,7 +118,7 @@ a {
 .vfx-project-slide {
 	width:  100%;
 	height:  100vh;
-	padding:  6%;
+	padding:  6% 6% 3.8% 6%;
 	display: flex;
 	align-items: flex-end;
 	background-size:  cover;
@@ -128,10 +132,16 @@ a {
 .vfx-project-title,
 .vfx-page-title {
 	font-size: calc(20px + 1.5vw);
+	letter-spacing: 1px;
 	font-family: "Geometos";
 	font-weight: 400;
 	color:  #fff;
 	margin-bottom:  .4em;
+}
+
+.blast-beat .vfx-project-title,
+.blast-beat .vfx-project-data {
+	text-shadow:  0 2px 6px #00000060;
 }
 
 .vfx-project-data {
@@ -148,6 +158,8 @@ a {
 	font-weight: 400;
 	color:  #fff;
 	text-decoration: none;
+	transition: background .3s linear;
+	padding-bottom:  10px;
 }
 
 .vfx-project-cta::after {
@@ -156,8 +168,14 @@ a {
     height: 1px;
     position: absolute;
     left: 0;
-    bottom: -9px;
+    bottom: 0px;
     background: linear-gradient(90deg, #5958F1 10.77%, #F5F5F5 106.32%);
+    transition: background .3s linear;
+}
+
+.vfx-project-cta:hover::after {
+    background: linear-gradient(90deg, #F5F5F5 10.77%, #5958F1 106.32%);
+    transition: background .3s linear;
 }
 
 .vfx-project-slide.sanctorum {
@@ -181,7 +199,7 @@ a {
 	width: -webkit-fit-content !important;
 	width:  fit-content !important;
 	right:  6% !important;
-	bottom:  5vw !important;
+	bottom:  2.8vw !important;
 	left:  auto !important;
 }
 
@@ -190,10 +208,15 @@ a {
 	border-radius:  100px;
 	background: #C4C4C4;
 	opacity: 0.4;
+	height: 10px;
 }
 
 .swiper-pagination-bullet {
 	margin-left:  20px !important;
+}
+
+.swiper-pagination-bullet:nth-child(1) {
+	margin-left: 0 !important;
 }
 
 .swiper-pagination-bullet-active {
@@ -214,7 +237,7 @@ a {
 	background:  #F5F5F5;
 	position:  absolute;
 	right:  6.7% !important;
-	bottom:  9vw !important;
+	bottom:  6.7vw !important;
 	z-index:  9999;
 	transform: skewX(-14deg);
 	font-size:  calc(13px + .1vw);
