@@ -397,8 +397,8 @@ p.vfx-about-intro-txt {
 
 .vfx-project-data-single,
 .vfx-project-title-single,
-.vfx-project-data-overlay {
-	transition:  opacity 1.8s linear;
+.vfx-project-overlay {
+	transition:  opacity .18s linear;
 }
 
 .vfx-projects {
@@ -414,7 +414,7 @@ p.vfx-about-intro-txt {
 }
 
 .vfx-projects-col {
-	width:  46%;
+	width:  48%;
 }
 
 .vfx-project-container {
