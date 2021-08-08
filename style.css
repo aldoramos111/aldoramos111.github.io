@@ -683,7 +683,8 @@ p.vfx-about-intro-txt {
 	height: calc(185px + 2vh);
 }
 .vfx-project-data-single {
-	margin-bottom:  4px;
+	margin-bottom:  6px;
+	font-size:  12px;
 }
 }
 
