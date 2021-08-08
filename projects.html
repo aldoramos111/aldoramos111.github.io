@@ -19,16 +19,28 @@
       nav .nav-item.projects:before {
         width: 100%;
       }
+      .projects-header-row {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
       header {
-        background: #000;
+        background: #0B0B0B;
+        padding:  3.5% 6%;
+        min-height: calc(280px + 5vw);
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        justify-content: space-between;
       }
     </style>
   </head>
   <body>
     <header>
-      <div class="vfx-logo-container">
-        <a href="/"><img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/08/vertigofx_logo.svg" alt="vertigofx logo"/></a>
-      </div>
+      <div class="projects-header-row">
+        <div class="vfx-logo-container">
+          <a href="/"><img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/08/vertigofx_logo.svg" alt="vertigofx logo"/></a>
+        </div>
       <nav>
         <ul id="navList">
           <li><a href="/">HOME</a></li>
@@ -39,6 +51,10 @@
         </ul>
         <img id="mobileNavToggle" src="https://turbotesting.wpengine.com/wp-content/uploads/2021/08/nav-bars.svg" class="mobile-nav-toggle" onclick="mobileNavToggle()"/>
       </nav>
+    </div>
+    <div class="projects-header-row">
+      <h1 class="projects-page-title">PROJECTS</h1>
+    </div>
     </header>
     <main>
     <div class="vfx-projects">
