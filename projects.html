@@ -27,17 +27,24 @@
       header {
         background: #0B0B0B;
         padding:  3.5% 6%;
-        min-height: calc(280px + 5vw);
+      }
+      .vfx-page-title {
+        margin-bottom: 0;
+        font-size: calc(14px + 1.5vw);
+        color: #fff;
+      }
+      .projects-header {
+        width: 100%;
+        min-height:  calc(300px + 1vw);
+        padding:  3.5% 6%;
+        background: #0B0B0B; 
         display: flex;
-        flex-direction: column;
-        align-items: space-between;
-        justify-content: space-between;
+        align-items: flex-end;
       }
     </style>
   </head>
   <body>
     <header>
-      <div class="projects-header-row">
         <div class="vfx-logo-container">
           <a href="/"><img src="https://turbotesting.wpengine.com/wp-content/uploads/2021/08/vertigofx_logo.svg" alt="vertigofx logo"/></a>
         </div>
@@ -51,12 +58,11 @@
         </ul>
         <img id="mobileNavToggle" src="https://turbotesting.wpengine.com/wp-content/uploads/2021/08/nav-bars.svg" class="mobile-nav-toggle" onclick="mobileNavToggle()"/>
       </nav>
-    </div>
-    <div class="projects-header-row">
-      <h1 class="projects-page-title">PROJECTS</h1>
-    </div>
     </header>
     <main>
+    <div class="projects-header">
+      <h1 class="vfx-page-title">PROJECTS</h1>
+    </div>
     <div class="vfx-projects">
         <div class="vfx-projects-row">
           <div class="vfx-projects-col">
