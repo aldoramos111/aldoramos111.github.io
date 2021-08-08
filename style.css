@@ -140,7 +140,12 @@ a {
 }
 
 .blast-beat .vfx-project-title,
-.blast-beat .vfx-project-data {
+.blast-beat .vfx-project-data,
+.blast-beat .vfx-project-title-single,
+.blast-beat-2 .vfx-project-title-single,
+.blast-beat-2 .vfx-project-data-single,
+.blue-pig .vfx-project-title-single,
+.blue-pig .vfx-project-data-single {
 	text-shadow:  0 2px 6px #00000060;
 }
 
@@ -418,7 +423,7 @@ p.vfx-about-intro-txt {
 
 .vfx-projects {
 	width:  100%;
-	padding:  12% 6% 6% 6%;
+	padding:  3.5% 6% 6% 6%;
 	background:  #000;
 }
 
@@ -435,7 +440,7 @@ p.vfx-about-intro-txt {
 
 .vfx-project-container {
 	width:  100%;
-	height:  25vw;
+	height:  23.8vw;
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -462,6 +467,10 @@ p.vfx-about-intro-txt {
 	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-hero-img.jpg");
 }
 
+.vfx-project-container.sanctorum-2 {
+	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-1.png");
+}
+
 .vfx-project-container.blast-beat {
 	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-hero-img-2.jpg");
 }
@@ -474,6 +483,18 @@ p.vfx-about-intro-txt {
 	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/QMAS_isla1.0400.jpg");
 }
 
+.vfx-project-container.wk-sarah-2 {
+	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/wk-sarah-hero-img.jpg");
+}
+
+.vfx-project-container.teo {
+	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/un_dos-teo_-scaled.jpg");
+}
+
+.vfx-project-container.blue-pig {
+	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blue_pig2.1001.jpg");
+}
+
 .vfx-project-content {
 	 height: -moz-fit-content;
 	 height: -webkit-fit-contet;
@@ -481,12 +502,12 @@ p.vfx-about-intro-txt {
 }
 
 .vfx-project-data-single {
-	font-size:  calc(10px + .5vw);
+	font-size:  calc(10px + .3vw);
 	line-height: 1em;
-	color:  #5959EF;
+	color:  #fff;
 	font-family:  "Work Sans";
 	font-weight: 400;
-	margin-bottom:  10px;
+	margin-bottom:  15px;
 }
 
 .vfx-project-title-single {
@@ -495,6 +516,7 @@ p.vfx-about-intro-txt {
 	color:  #fff;
 	font-family:  "Geometos";
 	font-weight: 400;
+	letter-spacing: 1px;
 }
 
 .vfx-project-overlay {
@@ -529,6 +551,9 @@ p.vfx-about-intro-txt {
 	.footer-contact-col,
 	.footer-credentials-col {
 		width: 48%;
+	}
+		.vfx-project-title-single {
+		font-size:  calc(16px + .5vw);
 	}
 
 	
@@ -645,7 +670,21 @@ p.vfx-about-intro-txt {
 p.vfx-about-intro-txt {
 	width: 100%;
 }
-
+/*Projects*/
+.vfx-projects-row {
+	flex-direction: column;
+	margin-bottom: 0;
+}
+.vfx-projects-col {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.vfx-project-container {
+	height: calc(185px + 2vh);
+}
+.vfx-project-data-single {
+	margin-bottom:  4px;
+}
 }
 
 
