@@ -1000,6 +1000,34 @@ transform: skewX(-4deg);
   bottom: 50%;
   margin-bottom: -17px;
 }
+.vfx-project-page {
+	width:  60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding:  8% 0;
+	margin:  0 auto;
+}
+
+.vfx-project-page img {
+	width: 100%;
+}
+
+.vfx-pp-img {
+	width:  47%;
+}
+
+.vfx-pp-info {
+	width: 47%;
+}
+
+.vfx-pp-info p {
+	color:  #fff;
+	font-size:  calc(16px + .2vw);
+	margin-bottom: 3%;
+	font-family: "Work Sans";
+	font-weight: 400;
+}
 
 /*Media Queries*/
 
