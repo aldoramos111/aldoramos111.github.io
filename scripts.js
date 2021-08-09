@@ -58,3 +58,15 @@ function mobileNavToggle() {
   var element = document.getElementById("navList");
   element.classList.toggle("active");
 }
+
+//Change nav color on scroll
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+     //>=, not <=
+    if (scroll >= 800) {
+        //clearHeader, not clearheader - caps H
+        $("header").addClass("darkHeader");
+    }
+}); //missing );

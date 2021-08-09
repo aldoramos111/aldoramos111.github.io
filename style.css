@@ -31,6 +31,12 @@ header {
 	align-items:  center;
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 25%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0) 100%);
+  transition: background .3s linear;
+}
+
+header.darkHeader {
+	background: #000;
+	transition: background .3s linear;
 }
 
 .btn-check:focus+.btn, .btn:focus {
@@ -631,6 +637,36 @@ p.vfx-about-intro-txt {
 
 .vfx-csid-col {
 	width: 30%;
+}
+
+.vfx-case-study-showcase {
+	width: 100%;
+	padding: 6%;
+	background: #000;
+}
+
+.vfx-css-trailer {
+	width:  90%;
+	height: 39vw;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/vfx-css.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 42px;
+	border:  solid 3px #5959EF;
+	cursor: pointer;
+}
+
+.vfx-csst-title {
+	color:  #fff;
+	font-size:  calc(22px + .8vw);
+	font-family: "Geometos";
+	font-weight: 400;
+	letter-spacing: 1px;
 }
 
 /*Media Queries*/
