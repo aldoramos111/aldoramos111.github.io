@@ -610,6 +610,7 @@ p.vfx-about-intro-txt {
 .vfx-csi-data {
 	margin-left: 10%;
 	max-width: 60%;
+	min-width: 555px;
 }
 
 .vfx-divider {
@@ -728,6 +729,31 @@ p.vfx-about-intro-txt {
 .vfx-css-full-img {
 	width: 100%;
 	margin-bottom:  6%;
+}
+
+.vfx-csi-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.vfx-csi-row:nth-child(1) {
+	margin-bottom: 8%;
+}
+
+.vfx-csi-col-1 {
+	width: 10%;
+	padding-right: 2%;
+}
+
+.vfx-csi-col-2 {
+	width: 90%;
+	transform: skewX(4deg);
+	padding-left: 4%;
+	border-left: solid 2px #3D73FF;
+}
+
+.vfx-csi-col-2 p {
+transform: skewX(-4deg);
 }
 
 /* Plugin CSS */
@@ -988,6 +1014,20 @@ p.vfx-about-intro-txt {
 		.vfx-project-title-single {
 		font-size:  calc(16px + .5vw);
 	}
+	.vfx-css-quote::before {
+	left:  -7%;
+}
+.vfx-css-quote::after {
+	right:  -2%;
+	bottom:  -40%;
+}
+.vfx-csi-row {
+	flex-direction: column;
+}
+.vfx-csi-col-1,
+.vfx-csi-col-2 {
+	width: 100%;
+}
 
 	
 }
@@ -997,6 +1037,17 @@ p.vfx-about-intro-txt {
 	nav ul {
 		min-width: initial;
 		width: 55vw;
+	}
+	.vfx-csi-data {
+		min-width: auto;
+		flex-direction: column;
+	}
+	.vfx-csid-col {
+		width: 100%;
+		margin-bottom: 4%;
+	}
+	.vfx-csid-col:nth-child(3) {
+		margin-bottom: 0;
 	}
 
 }
@@ -1127,13 +1178,67 @@ p.vfx-about-intro-txt {
 	width: 100%;
 	margin-bottom: 8%;
 }
+.vfx-csi-brief {
+	flex-direction: column;
+}
+.vfx-csi-data,
+.vfx-csib-col-2,
+.vfx-csib-col-1 {
+	max-width: 100%;
+	margin:  0;
+}
+.vfx-divider {
+	margin-top: 8%;
+	margin-bottom: 3%;
+}
+.vfx-csib-title{
+	margin-bottom: 40%;
+}
+.vfx-case-study-info {
+	padding: 10%;
+}
+.vfx-css-trailer {
+	width: 100%;
+	height: 48vw;
+	border-radius: 8px;
+	border-width: 2px;
+	margin-bottom:  10%;
+}
+.vfx-csst-title {
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.vfx-case-study-showcase{
+	padding:  10%;
+}
+.vfx-csst-caption,
+.vfx-css-quote {
+	width: 100%;
+	max-width: 100%;
+	font-size: 14px;
+	margin-bottom: 11%;
+}
+.vfx-csib-title.second {
+	margin-bottom: 10px;
+}
+.vfx-csi-col-2,
+.vfx-csi-col-2 p {
+	transform:  skewX(0deg);
+}
 }
 
 
 @media only screen and (max-width: 500px) {
 	.vfx-project-slide {
 		height: 92vh;
-	}}
+	}
+	.vfx-css-quote::before {
+	left:  -2%;
+}
+.vfx-css-quote::after {
+	right:  2%;
+	bottom:  calc(-25px - 30%);
+}}
 
 @media only screen and (max-width:280px) {
 	.vfx-reel-btn {
