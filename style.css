@@ -552,6 +552,17 @@ p.vfx-about-intro-txt {
 	opacity: 0;
 }
 
+/*Case Study*/
+
+.vfx-case-study-hero {
+	width:  100%;
+	height: 100vh;
+	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-case-study-hero.png");
+	background-size: cover;
+	background-repeat: no-repeat
+	background-position: center;
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width:1024px) {
