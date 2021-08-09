@@ -225,7 +225,8 @@ a {
 	opacity: 1;
 }
 
-.vfx-reel-btn {
+.vfx-reel-btn,
+.vfx-projects-btn {
 	display:  block;
 	width:  180px;
 	padding:  10px 0;
@@ -245,12 +246,21 @@ a {
 	transition:  all .2s ease-in-out;
 }
 
+.vfx-projects-btn {
+	background: #252563;
+	margin:  0 auto;
+	position: static;
+	right: 0;
+	bottom: 0;
+}
+
 .vfx-reel-btn:hover {
 	background:  #060606;
 	color:  #F5F5F5;
 }
 
-.vfx-reel-btn span {
+.vfx-reel-btn span,
+.vfx-projects-btn span {
 	display:  block;
 	transform: skewX(14deg) !important;
 }
@@ -423,7 +433,7 @@ p.vfx-about-intro-txt {
 
 .vfx-projects {
 	width:  100%;
-	padding:  3.5% 6% 6% 6%;
+	padding:  3.5% 6%;
 	background:  #000;
 }
 
