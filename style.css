@@ -677,14 +677,64 @@ p.vfx-about-intro-txt {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom:  3.5%;
+	margin-bottom:  6%;
 }
 
 .vfx-cssbaa-col {
 	width: 48%;
 }
 
+.vfx-csst-caption,
+.vfx-css-quote {
+	color:  #fff;
+	font-size: calc(18px + .2vw);
+	font-family: "Work Sans";
+	font-weight:  400;
+	max-width: 75%;
+	text-align: center;
+	margin:  0 auto;
+	margin-bottom:  6%;
+}
+
+.vfx-css-quote {
+	position: relative;
+	font-size:  calc(24px + .2vw);
+	max-width:  60%;
+	margin: 6% auto 12%;
+}
+
+.vfx-css-quote::before {
+	content: "''";
+	position: absolute;
+	left:  -6%;
+	top: -30%;
+	color:  #3DD308;
+	font-family: "Geometos";
+	font-size: 3em;
+	font-style: italic;
+}
+
+.vfx-css-quote::after {
+	content: "''";
+	position: absolute;
+	right:  -4%;
+	bottom: -70%;
+	color:  #3DD308;
+	font-family: "Geometos";
+	font-size: 3em;
+	font-style: italic;
+}
+
+.vfx-css-full-img {
+	width: 100%;
+	margin-bottom:  6%;
+}
+
 /* Plugin CSS */
+.twentytwenty-container * {
+	font-family: "Work Sans";
+	font-weight: 400;
+}
 .twentytwenty-horizontal .twentytwenty-handle:before,
 .twentytwenty-horizontal .twentytwenty-handle:after,
 .twentytwenty-vertical .twentytwenty-handle:before,
