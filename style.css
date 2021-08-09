@@ -557,10 +557,80 @@ p.vfx-about-intro-txt {
 .vfx-case-study-hero {
 	width:  100%;
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding:  3.5% 6%;
 	background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-case-study-hero.png");
 	background-size: cover;
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.vfx-case-study-data {
+	color:  #3D73FF;
+	font-size: calc(22px + .2vw);
+	margin-bottom: 0;
+}
+
+.vfx-case-study-info {
+	 background:  #fff;
+	 padding:  8% 16%;
+}
+
+.vfx-csi-brief {
+	margin-bottom: 3.8%;
+}
+
+.vfx-csi-brief,
+.vfx-csi-data {
+	display: flex;
+	justify-content: space-between;
+}
+
+.vfx-csib-col-1 {
+	width: 10%;
+}
+
+.vfx-csib-col-2 {
+	width: 90%;
+}
+
+.vfx-csi-data {
+	margin-left: 10%;
+	max-width: 60%;
+}
+
+.vfx-divider {
+	width:  22%;
+	min-width: 180px;
+	height: 2px;
+	display: block;
+  background: #3D73FF;
+  margin-top: 9%;
+}
+
+.vfx-csib-title {
+	font-size:  calc(14px + .2vw);
+	font-family: "Work Sans";
+	font-weight: 700;
+}
+
+.vfx-csib-txt {
+	font-size:  calc(14px + .2vw);
+	font-family: "Work Sans";
+	font-weight: 400;
+}
+
+.vfx-csid-txt {
+	font-size:  calc(12px + .3vw);
+	font-family: "Work Sans";
+	font-weight: 400;
+}
+
+.vfx-csid-col {
+	width: 30%;
 }
 
 /*Media Queries*/
