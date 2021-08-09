@@ -31,12 +31,16 @@ header {
 	align-items:  center;
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 25%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0) 100%);
-  transition: background .3s linear;
+  transition: all 1s linear;
 }
 
-header.darkHeader {
-	background: #000;
-	transition: background .3s linear;
+.vfx-header {
+	transition: all 1s linear;
+}
+
+.vfx-header.darkHeader {
+ background: linear-gradient(180deg, rgba(11, 11, 11, 1) 0%, rgba(11, 11, 11, 1) 25%, rgba(11, 11, 11, 1) 50%, rgba(11, 11, 11, 1) 75%, rgba(11, 11, 11, 1) 100%) !important;
+	transition: all 1s linear;
 }
 
 .btn-check:focus+.btn, .btn:focus {
@@ -646,8 +650,8 @@ p.vfx-about-intro-txt {
 }
 
 .vfx-css-trailer {
-	width:  90%;
-	height: 39vw;
+	width:  82%;
+	height: 36vw;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
