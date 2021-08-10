@@ -31,16 +31,23 @@ header {
 	align-items:  center;
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 25%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0) 100%);
-  transition: all 1s linear;
+  transition: all .3s linear;
 }
 
 .vfx-header {
-	transition: all 1s linear;
+	transition: all .3s linear;
 }
 
 .vfx-header.darkHeader {
- background: linear-gradient(180deg, rgba(11, 11, 11, 1) 0%, rgba(11, 11, 11, 1) 25%, rgba(11, 11, 11, 1) 50%, rgba(11, 11, 11, 1) 75%, rgba(11, 11, 11, 1) 100%) !important;
-	transition: all 1s linear;
+ background: linear-gradient(180deg, rgba(10, 10, 10, 1) 0%, rgba(10, 10, 10, 1) 25%, rgba(10, 10, 10, 1) 50%, rgba(10, 10, 10, 1) 75%, rgba(10, 10, 10, 1) 100%) !important;
+	transition: all .3s linear;
+	padding:  1.5% 6% 1.7%;
+}
+
+.vfx-header.darkHeader .vfx-logo-container img {
+	width:  100%;
+	max-width:  210px;
+	transition: all .3s linear;
 }
 
 .btn-check:focus+.btn, .btn:focus {
@@ -67,6 +74,7 @@ main {
 .vfx-logo-container img {
 	width:  100%;
 	max-width:  300px;
+	transition: all .3s linear;
 }
 
 nav {
@@ -356,7 +364,7 @@ footer {
   padding:  0 2%;
   z-index: -1;
   height: 55px; 
-  background: #060606;
+  background: /*#060606*/#0a0a0a;
   display: flex;
   justify-content: space-between;
   align-items: center;
