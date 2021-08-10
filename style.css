@@ -1,3 +1,7 @@
+:root {
+  --main-transition: all .26s ease-in-out;
+}
+
 @font-face {
   font-family: "Geometos";
   src: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/Geometos.ttf");
@@ -31,23 +35,10 @@ header {
 	align-items:  center;
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 25%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0) 100%);
-  transition: all .3s linear;
+  transition: var(--main-transition);
 }
 
 .vfx-header {
-	transition: all .3s linear;
-}
-
-.vfx-header.darkHeader {
- background: linear-gradient(180deg, rgba(10, 10, 10, 1) 0%, rgba(10, 10, 10, 1) 25%, rgba(10, 10, 10, 1) 50%, rgba(10, 10, 10, 1) 75%, rgba(10, 10, 10, 1) 100%) !important;
-	transition: all .3s linear;
-	padding:  1.5% 6% 1.7%;
-}
-
-.vfx-header.darkHeader .vfx-logo-container img {
-	width:  100%;
-	max-width:  210px;
-	transition: all .3s linear;
 }
 
 .btn-check:focus+.btn, .btn:focus {
@@ -74,7 +65,7 @@ main {
 .vfx-logo-container img {
 	width:  100%;
 	max-width:  300px;
-	transition: all .3s linear;
+	transition: var(--main-transition);
 }
 
 nav {
@@ -660,7 +651,7 @@ p.vfx-about-intro-txt {
 
 .vfx-css-trailer {
 	width:  82%;
-	height: 36vw;
+	height: 38vw;
 	margin: 0 auto 6%;
 	display: flex;
 	align-items: center;
@@ -775,7 +766,7 @@ transform: skewX(-4deg);
 .twentytwenty-vertical .twentytwenty-handle:after {
   content: " ";
   display: block;
-  background: white;
+  background: #5959EF;
   position: absolute;
   z-index: 30;
   -webkit-box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
@@ -950,7 +941,7 @@ transform: skewX(-4deg);
   top: 50%;
   margin-left: -22px;
   margin-top: -22px;
-  border: 3px solid #fff;
+  border: 3px solid #5959EF;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
   border-radius: 1000px;
@@ -963,16 +954,16 @@ transform: skewX(-4deg);
 .twentytwenty-horizontal .twentytwenty-handle:before {
   bottom: 50%;
   margin-bottom: 22px;
-  -webkit-box-shadow: 0 3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+  /*-webkit-box-shadow: 0 3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
   -moz-box-shadow: 0 3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
-  box-shadow: 0 3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+  box-shadow: 0 3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);*/
 }
 .twentytwenty-horizontal .twentytwenty-handle:after {
   top: 50%;
   margin-top: 22px;
-  -webkit-box-shadow: 0 -3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+  /*-webkit-box-shadow: 0 -3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
   -moz-box-shadow: 0 -3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
-  box-shadow: 0 -3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+  box-shadow: 0 -3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);*/
 }
 .twentytwenty-vertical .twentytwenty-handle:before {
   left: 50%;
@@ -1038,7 +1029,16 @@ transform: skewX(-4deg);
 }
 
 /*Media Queries*/
+@media only screen and (min-width:751px) {
+.vfx-header.darkHeader {
+	 padding:  1.5% 6% 1.7%;
+}
 
+.vfx-header.darkHeader .vfx-logo-container img {
+	width:  100%;
+	max-width:  210px;
+}
+}
 @media only screen and (max-width:1024px) {
 	.vfx-logo-container img {
 		max-width: 200px;

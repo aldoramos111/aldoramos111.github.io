@@ -29,7 +29,7 @@ function mobileNavToggle() {
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 500) {
+    if (scroll >= 160) {
         $(".vfx-header").addClass("darkHeader");
     } else {
         $(".vfx-header").removeClass("darkHeader");
