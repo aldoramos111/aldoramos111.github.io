@@ -1041,6 +1041,11 @@ transform: skewX(-4deg);
 	margin-bottom: 0;
 }
 
+.vfx-css-full-img.last {
+	padding-bottom:  4%;
+	margin-bottom: 0;
+}
+
 /*Media Queries*/
 @media only screen and (min-width:751px) {
 .vfx-header.darkHeader {
