@@ -1000,7 +1000,7 @@ transform: skewX(-4deg);
   margin-bottom: -17px;
 }
 .vfx-project-page {
-	width:  80%;
+	width:  60%;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
@@ -1034,6 +1034,11 @@ transform: skewX(-4deg);
 
 .vfx-project-img-tag {
 	width: 100%;
+}
+
+.vfx-css-b-and-a.last {
+	padding-bottom:  4%;
+	margin-bottom: 0;
 }
 
 /*Media Queries*/
