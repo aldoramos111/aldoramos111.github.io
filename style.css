@@ -1004,7 +1004,7 @@ transform: skewX(-4deg);
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
-	padding:  8% 0;
+	padding:  4% 0;
 	margin:  0 auto;
 }
 
@@ -1023,7 +1023,7 @@ transform: skewX(-4deg);
 .vfx-pp-info p {
 	color:  #fff;
 	font-size:  calc(16px + .2vw);
-	margin-bottom: 3%;
+	margin-bottom: 20px;
 	font-family: "Work Sans";
 	font-weight: 400;
 }
@@ -1085,7 +1085,20 @@ transform: skewX(-4deg);
 	.vfx-csid-col:nth-child(3) {
 		margin-bottom: 0;
 	}
-
+	.vfx-project-page {
+		width: 90%;
+		flex-direction: column;
+		padding:  10% 0;
+		text-align: center;
+	}
+	.vfx-project-page img {
+		width: 60%;
+		margin-bottom:  20px;
+	}
+	.vfx-pp-img,
+	.vfx-pp-info {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width:750px) {
