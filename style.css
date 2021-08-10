@@ -409,7 +409,7 @@ footer {
 
 .vfx-studio-img {
 	width:  100%;
-	margin-top:  8.5%;
+	margin-top:  -3.5%
 }
 
 .vfx-studio-img img {
@@ -1291,6 +1291,9 @@ p.vfx-about-intro-txt {
 .vfx-csi-col-2,
 .vfx-csi-col-2 p {
 	transform:  skewX(0deg);
+}
+.vfx-studio-img {
+	margin-top:  -6.5%;
 }
 }
 
