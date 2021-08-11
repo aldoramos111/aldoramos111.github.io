@@ -14,7 +14,7 @@ const swiper = new Swiper('.swiper-container', {
     },
     loop: true,
     autoplay: {
-        delay: 3500,
+        delay: 4000,
         disableOnInteraction: false
     },
 });
