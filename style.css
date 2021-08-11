@@ -460,7 +460,7 @@ p.vfx-about-intro-txt {
 
 .vfx-projects {
 	width:  100%;
-	padding:  3.5% 6%;
+	padding:  3.5% 10%;
 	background:  #000;
 }
 
@@ -468,16 +468,16 @@ p.vfx-about-intro-txt {
 	width:  100%;
 	display:  flex;
 	justify-content: space-between;
-	margin-bottom:  4%;
+	margin-bottom:  5%;
 }
 
 .vfx-projects-col {
-	width:  48%;
+	width:  30%;
 }
 
 .vfx-project-container {
 	width:  100%;
-	height:  23.8vw;
+	height:  34.8vw;
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -487,6 +487,15 @@ p.vfx-about-intro-txt {
 	background-size:  cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.vfx-project-container.placeholder {
+	background: #040404;
+	cursor: default;
+}
+
+.vfx-project-container.placeholder a {
+	cursor: default;
 }
 
 .vfx-project-container a {
@@ -501,7 +510,7 @@ p.vfx-about-intro-txt {
 }
 
 .vfx-project-container.sanctorum {
-	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-hero-img.jpg");
+	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-poster.jpg");
 }
 
 .vfx-project-container.sanctorum-2 {
@@ -509,7 +518,7 @@ p.vfx-about-intro-txt {
 }
 
 .vfx-project-container.blast-beat {
-	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-hero-img-2.jpg");
+	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-posterr-1.jpg");
 }
 
 .vfx-project-container.blast-beat-2 {
@@ -517,7 +526,7 @@ p.vfx-about-intro-txt {
 }
 
 .vfx-project-container.wk-sarah {
-	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/QMAS_isla1.0400.jpg");
+	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/who-killed-saraha-poster-1.jpg");
 }
 
 .vfx-project-container.wk-sarah-2 {
@@ -529,13 +538,14 @@ p.vfx-about-intro-txt {
 }
 
 .vfx-project-container.blue-pig {
-	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blue_pig2.1001.jpg");
+	background-image:  url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/bluepig-poster-1.jpg");
 }
 
 .vfx-project-content {
 	 height: -moz-fit-content;
 	 height: -webkit-fit-contet;
    height: fit-content;
+   display: none;
 }
 
 .vfx-project-data-single {
@@ -572,6 +582,11 @@ p.vfx-about-intro-txt {
 .vfx-project-overlay:hover {
 	opacity: 1;
 	border:  solid 3px #5959EF;
+}
+
+.vfx-project-container.placeholder .vfx-project-overlay:hover {
+	opacity: 0;
+	border:  none;
 }
 
 .vfx-project-container:hover .vfx-project-data-single,
