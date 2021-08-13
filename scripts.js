@@ -25,6 +25,11 @@ function mobileNavToggle() {
     element.classList.toggle("active");
 }
 
+function mobileNavTogglegit() {
+    var element = document.getElementById("navList");
+    element.classList.toggle("active");
+}
+
 //Change nav color on scroll
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
