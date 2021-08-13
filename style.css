@@ -1315,10 +1315,11 @@ label {
 	color: var(--accent-color);
 	font-family: "Work Sans";
 	font-weight: 400;
+	margin-bottom: calc(10px + .2vw);
 }
 
 .submission-txt {
-	font-size: calc(16px + 1vw);
+	font-size: calc(14px + 1vw);
 	color: #fff;
 	font-family: "Work Sans";
 	font-weight: 400;
