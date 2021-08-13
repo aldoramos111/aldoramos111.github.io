@@ -8,6 +8,10 @@
   src: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/Geometos.ttf");
 }
 
+input:-internal-autofill-selected {
+	background-color: transparent !important;
+}
+
 * {
 	margin:  0;
 	padding:  0;
@@ -253,7 +257,8 @@ a {
 }
 
 .vfx-reel-btn,
-.vfx-projects-btn {
+.vfx-projects-btn,
+button[type="submit"] {
 	display:  block;
 	width:  180px;
 	padding:  10px 0;
@@ -273,7 +278,8 @@ a {
 	transition:  all .2s ease-in-out;
 }
 
-.vfx-projects-btn {
+.vfx-projects-btn,
+button[type="submit"] {
 	background: #252563;
 	margin:  0 auto;
 	position: static;
@@ -286,10 +292,27 @@ a {
 	color:  #F5F5F5;
 }
 
+
+button[type="submit"]:hover {
+	background: var(--main-secondary-color);
+	color: #fff;
+}
+
 .vfx-reel-btn span,
-.vfx-projects-btn span {
+.vfx-projects-btn span,
+button[type="submit"] span {
 	display:  block;
 	transform: skewX(14deg) !important;
+}
+
+button[type="submit"] {
+	width: 42%;
+	padding:  2.9% 0;
+	border: none;
+	color:  #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: calc(12px + .5vw);
 }
 
 .vfx-reel-container {
@@ -1079,6 +1102,146 @@ transform: skewX(-4deg);
 	margin-bottom: 0;
 }
 
+/*Get in Touch*/
+
+.vfx-get-in-touch {
+	width:  87.5%;
+	margin: 20% auto;
+}
+
+.get-in-touch-form {
+	width: 42%;
+}
+
+input[type="text"]::placeholder {
+	color: #fff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+	-webkit-box-shadow: 0 0 0 30px #000 inset !important;
+}
+
+input:-webkit-autofill
+{
+ -webkit-text-fill-color: #fff !important;
+}
+
+input[type="text"],
+textarea {
+	padding-bottom:  4px;
+	background: transparent;
+	border:  none;
+	color:  #fff;
+	font-family: "Work Sans";
+	font-weight: 300;
+	font-size: calc(12px + .5vw);
+}
+
+input[type="text"] {
+	width: 46%;
+	border-bottom: solid 2px #fff;
+	outline:  none;
+}
+
+textarea {
+	width: 100%;
+	height: 8vw;
+	padding:  10px;
+	margin-bottom: 10%;
+	border: solid 2px #fff;
+}
+
+label {
+	margin-bottom:  10px;
+	color: #fff;
+	font-family: "Work Sans";
+	font-weight: 300;
+	font-size: calc(12px + .5vw);
+}
+
+.gitf-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 9%;
+}
+
+.vfx-custom-select {
+	width: 46%;
+}
+
+/* The container must be positioned relative: */
+.vfx-custom-select {
+  position: relative;
+  font-family: "Work Sans";
+  font-weight: 300;
+  border-bottom: solid 2px #fff;
+}
+
+.vfx-custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: transparent;
+  font-size: calc(12px + .5vw);
+  border-bottom: solid 2px #fff;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 4% 6%;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+.select-selected {
+	padding-left: 0;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #111111;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+  color:  var(--main-secondary-color);
+  transition: var(--main-transition);
+}
+
 /*Media Queries*/
 @media only screen and (min-width:751px) {
 .vfx-header.darkHeader {
@@ -1357,3 +1520,4 @@ p.vfx-about-intro-txt {
 .nm {
 	margin-bottom: 0 !important;
 }
+
