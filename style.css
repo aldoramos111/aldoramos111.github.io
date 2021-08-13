@@ -1516,7 +1516,12 @@ p.vfx-about-intro-txt {
 	margin-bottom: 30px;
 }
 .vfx-project-container {
-	height: calc(185px + 2vh);
+	height: 700px;
+	max-width: 460px;
+	margin:  0 auto;
+}
+.vfx-project-container.placeholder {
+	display: none;
 }
 .vfx-project-data-single {
 	margin-bottom:  6px;
@@ -1598,7 +1603,13 @@ p.vfx-about-intro-txt {
 	input[type="text"],
 	.vfx-custom-select {
 		margin-bottom: 8%;
-	}}
+	}
+.vfx-project-container {
+	height: 380px;
+	max-width: 260px;
+	margin:  0 auto;
+}
+}
 
 @media only screen and (max-width:280px) {
 	.vfx-reel-btn {
