@@ -2,6 +2,7 @@
   --main-transition: all .26s ease-in-out;
   --main-secondary-color:  #5959EF;
   --main-primary-color:  #252563;
+  --accent-color: #64E33D;
 }
 
 @font-face {
@@ -1305,6 +1306,22 @@ label {
   background-color: rgba(0, 0, 0, 0.1);
   color:  var(--main-secondary-color);
   transition: var(--main-transition);
+}
+
+/*Submission Complete*/
+
+.submission-title {
+	font-size: calc(20px ++ .6vw);
+	color: var(--accent-color);
+	font-family: "Work Sans";
+	font-weight: 400;
+}
+
+.submission-title {
+	font-size: calc(16px ++ .4vw);
+	color: #fff;
+	font-family: "Work Sans";
+	font-weight: 400;
 }
 
 /*Media Queries*/
