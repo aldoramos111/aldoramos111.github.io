@@ -1105,12 +1105,76 @@ transform: skewX(-4deg);
 /*Get in Touch*/
 
 .vfx-get-in-touch {
-	width:  87.5%;
-	margin: 20% auto;
+	width:  100vw;
+	height: 100vh;
+	padding-right: 6.8%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom:  0;
+	right:  0;
+	background: #000;
 }
 
 .get-in-touch-form {
-	width: 42%;
+	width: 32%;
+}
+
+.get-in-touch-map {
+	width: 64.4%;
+	height: 100vh;
+	background: green;
+	clip-path: -webkit-polygon(0 0, 83% 0, 100% 100%, 0 100%);
+	clip-path: -moz-polygon(0 0, 83% 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 83% 0, 100% 100%, 0 100%);
+}
+
+#exampleModal2 .modal-dialog {
+	max-width: 100% !important;
+	z-index: 9999;
+}
+
+#exampleModal2 button.btn-close {
+	z-index: 9999;
+}
+
+#exampleModal2 .modal-header {
+	top: 40%;
+	right: 2%;
+	z-index: 9999;
+}
+
+#exampleModal2 .modal-content {
+	position: absolute;
+	top: 0;
+}
+
+#exampleModal2 .modal-header .btn-close {
+    padding: .8vw;
+}
+
+.gitf-title {
+	color: #fff;
+	font-family: "Work Sans";
+	font-weight: 500;
+	font-size:  calc(22px + 1vw);
+	margin-bottom: 3%;
+	margin-top:  2%;
+}
+
+.gitf-txt {
+	color: #fff;
+	font-family: "Work Sans";
+	font-weight: 300;
+	font-size:  calc(14px + .3vw);
+	margin-bottom: 8%;
+}
+
+.gitf-title span {
+	color:  #64E33D;
 }
 
 input[type="text"]::placeholder {
@@ -1279,7 +1343,32 @@ label {
 	width: 100%;
 }
 
-	
+@media only screen and (max-width:930px) {
+	.vfx-get-in-touch {
+		padding:  6%;
+	}
+	.get-in-touch-map {
+		display: none;
+	}
+	.get-in-touch-form,
+	input[type="text"],
+	.vfx-custom-select {
+		width: 100%;
+		margin-bottom: 4%;
+	}
+	.gitf-row {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	textarea {
+		height: 28vw;
+	}
+	.select-selected {
+		padding-top: 0;
+	}
+	#exampleModal2 .modal-header .btn-close {
+		padding:  1.5vw;
+	}
 }
 
 @media only screen and (max-width:800px) {
@@ -1504,7 +1593,12 @@ p.vfx-about-intro-txt {
 .vfx-css-quote::after {
 	right:  2%;
 	bottom:  calc(-25px - 30%);
-}}
+}
+.get-in-touch-form,
+	input[type="text"],
+	.vfx-custom-select {
+		margin-bottom: 8%;
+	}}
 
 @media only screen and (max-width:280px) {
 	.vfx-reel-btn {
@@ -1520,4 +1614,3 @@ p.vfx-about-intro-txt {
 .nm {
 	margin-bottom: 0 !important;
 }
-
