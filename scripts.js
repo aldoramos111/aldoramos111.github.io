@@ -27,7 +27,7 @@ function mobileNavToggle() {
 
 function mobileNavTogglegit() {
     var element = document.getElementById("navList");
-    element.classList.toggle("active");
+    element.classList.removeClass("active");
 }
 
 //Change nav color on scroll
