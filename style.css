@@ -1,6 +1,7 @@
 :root {
   --main-transition: all .26s ease-in-out;
   --main-secondary-color:  #5959EF;
+  --main-primary-color:  #252563;
 }
 
 @font-face {
@@ -1126,7 +1127,7 @@ transform: skewX(-4deg);
 .get-in-touch-map {
 	width: 64.4%;
 	height: 100vh;
-	background: green;
+	background: var(--main-primary-color);
 	clip-path: -webkit-polygon(0 0, 83% 0, 100% 100%, 0 100%);
 	clip-path: -moz-polygon(0 0, 83% 0, 100% 100%, 0 100%);
 	clip-path: polygon(0 0, 83% 0, 100% 100%, 0 100%);
