@@ -1311,14 +1311,14 @@ label {
 /*Submission Complete*/
 
 .submission-title {
-	font-size: calc(20px + .6vw);
+	font-size: calc(20px + 1.2vw);
 	color: var(--accent-color);
 	font-family: "Work Sans";
 	font-weight: 400;
 }
 
 .submission-title {
-	font-size: calc(16px + .4vw);
+	font-size: calc(16px + 1vw);
 	color: #fff;
 	font-family: "Work Sans";
 	font-weight: 400;
