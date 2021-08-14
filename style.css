@@ -1325,6 +1325,86 @@ label {
 	font-weight: 400;
 }
 
+.form-data-uploader-container.fd-uploader-container0 {
+	margin-bottom:  10%;
+}
+
+.uppy-Dashboard-AddFiles-title,
+.uppy-Dashboard-browse {
+	font-size: calc(12px + .1vw) !important;
+	color: #fff !important;
+}
+
+.uppy-Dashboard-inner {
+	background: #111111;
+}
+
+[data-uppy-drag-drop-supported=true] .uppy-Dashboard-AddFiles {
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
+
+.uppy-Dashboard-inner {
+	border-radius:  0;
+}
+
+.form-data-upload-button {
+	width: 100% !important;
+	background: #111111;
+	background-image: url("https://vertigovfx.com/media/upload-icon.svg");
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+	color:  #fff;
+	border:  none;
+	height: calc(60px + .5vw);
+	transition: var(--main-transition);
+}
+
+.form-data-upload-button:hover {
+	background-color: #080808;
+}
+
+.uppy-Dashboard-files::after {
+    content: "Your files have been processed successfuly, close this window and click on 'send' to submit the form'";
+    bottom: 12px;
+    left: 19px;
+    position: absolute;
+    color: #fff;
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.uppy-StatusBar.is-waiting .uppy-StatusBar-actionBtn--upload {
+	background-color:  var(--accent-color);
+	color:  #000;
+}
+
+.uppy-StatusBar.is-waiting .uppy-StatusBar-actions,
+.uppy-DashboardContent-bar {
+	background: #080808;
+}
+
+.uppy-StatusBar:not([aria-hidden=true]).is-waiting,
+.uppy-DashboardContent-bar {
+	border: none;
+}
+
+.uppy-DashboardContent-title {
+	color:  #fff;
+}
+
+.uppy-DashboardContent-addMore,
+.uppy-DashboardContent-back {
+	color:  var(--main-secondary-color);
+}
+
+.uppy-Dashboard-AddFiles-title button.uppy-Dashboard-browse {
+	color: var(-accent-color) !important;
+}
+
 /*Media Queries*/
 @media only screen and (min-width:751px) {
 .vfx-header.darkHeader {
@@ -1421,6 +1501,10 @@ label {
 	.vfx-pp-img,
 	.vfx-pp-info {
 		width: 100%;
+	}
+	.uppy-Dashboard--modal .uppy-Dashboard-inner {
+		top:  150px;
+		max-height: 50%;
 	}
 }
 
@@ -1631,6 +1715,26 @@ p.vfx-about-intro-txt {
 }
 }
 
+@media only screen and (max-width: 500px) {
+.get-in-touch-form, input[type="text"], .vfx-custom-select {
+    margin-bottom: 5%;
+}
+textarea {
+	height: 24vw;
+}
+.form-data-upload-button {
+    background-size: 30px;
+    height: calc(45px + .5vw);
+}
+.form-data-uploader-container.fd-uploader-container0 {
+    margin-bottom: 6%;
+}
+#exampleModal2 .modal-header {
+	top: 0;
+	right:  0;
+}
+}
+
 @media only screen and (max-width:280px) {
 	.vfx-reel-btn {
 		width: 116px;
@@ -1645,46 +1749,6 @@ p.vfx-about-intro-txt {
 .nm {
 	margin-bottom: 0 !important;
 }
-
-.form-data-uploader-container.fd-uploader-container0 {
-	margin-bottom:  10%;
-}
-
-.uppy-Dashboard-AddFiles-title,
-.uppy-Dashboard-browse {
-	font-size: calc(12px + .1vw) !important;
-	color: #fff !important;
-}
-
-.uppy-Dashboard-inner {
-	background: #111111;
-}
-
-[data-uppy-drag-drop-supported=true] .uppy-Dashboard-AddFiles {
-    margin: 0;
-    border-radius: 0;
-    border: none;
-}
-
-.uppy-Dashboard-inner {
-	border-radius:  0;
-}
-
-.form-data-upload-button {
-	width: 100% !important;
-	background: #111111;
-	color:  #fff;
-	border:  none;
-	height: calc(60px + .5vw);
-}
-
-.uppy-Dashboard-files::after {
-    content: "Once files are up click on the upload button and then on 'send' to complete the form ";
-    bottom: 90px;
-    left: 19px;
-    position: absolute;
-    color: #fff;
-    font-family: "Work Sans";
-    font-size: 14px;
-    font-weight: 300;
+div.modal div.uppy-Dashboard-innerWrap .uppy-Dashboard-AddFiles-title button.uppy-Dashboard-browse {
+	color: var(--main-secondary-color) !important;
 }
