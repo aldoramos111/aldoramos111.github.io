@@ -1697,7 +1697,16 @@ p.vfx-about-intro-txt {
 		height: 62vh;
 	}
 	.vfx-project-slide.blast-beat {
-		background-position: left;
+		background-position: 14%;
+	}
+	.vfx-project-slide.wk-sarah {
+		background-position: 33%;
+	}
+	.vfx-project-slide.teo {
+		background-position: 22%;
+	}
+	.vfx-project-slide.sanctorum {
+		background-position: 75%;
 	}
 	.vfx-css-quote::before {
 	left:  -2%;
