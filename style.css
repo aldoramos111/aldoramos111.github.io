@@ -1694,7 +1694,10 @@ p.vfx-about-intro-txt {
 
 @media only screen and (max-width: 500px) {
 	.vfx-project-slide {
-		height: 92vh;
+		height: 65vh;
+	}
+	.vfx-project-slide.blast-beat {
+		background-position: left;
 	}
 	.vfx-css-quote::before {
 	left:  -2%;
