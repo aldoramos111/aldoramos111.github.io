@@ -196,17 +196,17 @@
      transition: background .3s linear;
 }
  .vfx-project-slide.sanctorum {
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/Sanctorum-scaled.jpg");
+     background-image: url("https://vertigovfx.com/media/Sanctorum-scaled.jpg");
 }
  .vfx-project-slide.blast-beat {
      background-image: url("https://vertigovfx.com/media/blast-beat-hero.jpg");
      background-position: 0 8px;
 }
  .vfx-project-slide.wk-sarah {
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/wk-sarah-hero-img.jpg");
+     background-image: url("https://vertigovfx.com/media/wk-sarah-hero-img.jpg");
 }
  .vfx-project-slide.teo {
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/un_dos-teo_-scaled.jpg");
+     background-image: url("https://vertigovfx.com/media/un_dos-teo_-min-scaled.jpg");
 }
  .swiper-pagination {
      width: -moz-fit-content !important;
@@ -317,7 +317,7 @@
      border: none;
 }
  .btn-close {
-     background: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/cross-1.svg");
+     background: url("https://vertigovfx.com/media/cross-1.svg");
 }
  .vfx-about-intro {
      width: 100%;
@@ -462,28 +462,28 @@ body.about footer {
      right: 0;
 }
  .vfx-project-container.sanctorum {
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-poster.jpg");
+     background-image: url("https://vertigovfx.com/media/sanctorum-poster.jpg");
 }
  .vfx-project-container.sanctorum-2 {
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-1.png");
+     background-image: url("https://vertigovfx.com/media/sanctorum-1.png");
 }
  .vfx-project-container.blast-beat {
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-posterr-1.jpg");
+     background-image: url("https://vertigovfx.com/media/blast-beat-posterr-1.jpg");
 }
  .vfx-project-container.blast-beat-2 {
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/blast-beat-hero-img-1.jpg");
+     background-image: url("https://vertigovfx.com/media/blast-beat-hero-img-1.jpg");
 }
  .vfx-project-container.wk-sarah {
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/who-killed-saraha-poster-1.jpg");
+     background-image: url("https://vertigovfx.com/media/who-killed-saraha-poster-1.jpg");
 }
  .vfx-project-container.wk-sarah-2 {
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/wk-sarah-hero-img.jpg");
+     background-image: url("https://vertigovfx.com/media/wk-sarah-hero-img.jpg");
 }
  .vfx-project-container.teo {
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/un_dos-teo_-scaled.jpg");
+     background-image: url("https://vertigovfx.com/media/un_dos-teo_-scaled.jpg");
 }
  .vfx-project-container.blue-pig {
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/bluepig-poster-1.jpg");
+     background-image: url("https://vertigovfx.com/media/bluepig-poster-1.jpg");
 }
  .vfx-project-content {
      height: -moz-fit-content;
@@ -539,7 +539,7 @@ body.about footer {
      justify-content: flex-end;
      align-items: flex-end;
      padding: 3.5% 6%;
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/sanctorum-case-study-hero.png");
+     background-image: url("https://vertigovfx.com/media/sanctorum-case-study-hero.png");
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
@@ -609,7 +609,7 @@ body.about footer {
      display: flex;
      align-items: center;
      justify-content: center;
-     background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/vfx-css.png");
+     background-image: url("https://vertigovfx.com/media/vfx-css.png");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
