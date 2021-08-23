@@ -351,9 +351,14 @@
      justify-content: space-between;
      align-items: center;
 }
+body.home footer,
+body.about footer {
+    background: #060606;
+}
  .footer-icon {
      width: 20px;
      height: fit-content;
+}
 }
  .footer-contact-col {
      display: flex;
