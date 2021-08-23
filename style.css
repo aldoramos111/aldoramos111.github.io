@@ -1194,7 +1194,7 @@
      color: var(--main-secondary-color);
 }
  .uppy-Dashboard-AddFiles-title button.uppy-Dashboard-browse {
-     color: var(-accent-color) !important;
+     color: var(--accent-color) !important;
 }
 /*Media Queries*/
  @media only screen and (min-width:751px) {
