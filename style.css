@@ -289,7 +289,7 @@
      background: #000000;
      display: none;
 }
- !important .modal.fade .modal-dialog {
+ .modal.fade .modal-dialog {
      z-index: 999999999 !important;
 }
  .modal-header {
