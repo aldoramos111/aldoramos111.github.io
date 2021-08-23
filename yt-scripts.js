@@ -1,3 +1,8 @@
-$('#closevid').click(function() {
-  $("#embedvideo").attr('src', $("#embedvideo", parent).attr('src') + '&autoplay=1'); 
+$(document).ready(function() {
+  $('#closevid').on('click', function(ev) {
+ 
+    $("#embedvideo")[0].src += "&autoplay=1";
+    ev.preventDefault();
+ 
+  });
 });
