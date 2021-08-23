@@ -1540,7 +1540,7 @@
     }
 }
 /*-- Projects --*/
- body.projects nav .nav-item.projects:before, body.project-single nav .nav-item.projects:before {
+ body.projects nav .nav-item.projects:before, body.project-single nav .nav-item.projects:before, body.case-study nav .nav-item.projects:before {
      width: 100%;
 }
  body.projects .projects-header-row {
