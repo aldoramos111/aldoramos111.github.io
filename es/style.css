@@ -7,31 +7,7 @@
 
 @font-face {
   font-family: "Geometos";
-  src: url("https://vertigovfx.com/fonts/Geometos.ttf");
-}
-
-@font-face {
-  font-family: "Work Sans";
-  src: url("https://vertigovfx.com/fonts/WorkSans-Light.ttf");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Work Sans";
-  src: url("https://vertigovfx.com/fonts/WorkSans-Regular.ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Work Sans";
-  src: url("https://vertigovfx.com/fonts/WorkSans-Medium.ttf");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Work Sans";
-  src: url("https://vertigovfx.com/fonts/WorkSans-Bold.ttf");
-  font-weight: 700;
+  src: url("https://turbotesting.wpengine.com/wp-content/uploads/2021/08/Geometos.ttf");
 }
 
 input:-internal-autofill-selected {
