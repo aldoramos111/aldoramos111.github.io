@@ -126,6 +126,7 @@
     min-width: 32px;
     text-align: center;
     vertical-align: middle;
+    margin-top: -8px;
     }
  p, dl, ol, ul {
      margin-bottom: 0;
