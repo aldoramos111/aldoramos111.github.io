@@ -118,7 +118,7 @@
      transition: all .25s ease-in-out;
 }
 .lang-options {
-    color: #fff;
+    color: #fff !important;
     display:  inline-block;
     min-width: 32px;
     text-align: center;
