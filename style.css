@@ -117,8 +117,16 @@
      width: 100%;
      transition: all .25s ease-in-out;
 }
+.lang-options {
+    color: #fff;
+    display:  inline-block;
+    min-width: 32px;
+    text-align: center;
+    vertical-align: middle;
+    }
  p, dl, ol, ul {
      margin-bottom: 0;
+}
 }
  a:hover, a {
      color: #fff;
