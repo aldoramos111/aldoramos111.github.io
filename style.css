@@ -376,9 +376,9 @@ body.about footer {
      display: flex;
      width: 400px;
 }
- .footer-contact-col p {
+ body footer .footer-contact-col p {
      font-size: 14px;
-     color: #fff;
+     color: #fff !important;
 }
  .footer-credentials-col {
      display: flex;
@@ -1657,4 +1657,9 @@ background: linear-gradient(180deg, rgba(10, 10, 10, 1) 0%, rgba(10, 10, 10, 1) 
       body.case-study .vfx-header.darkHeader {
  background: linear-gradient(180deg, rgba(10, 10, 10, 1) 0%, rgba(10, 10, 10, 1) 25%, rgba(10, 10, 10, 1) 50%, rgba(10, 10, 10, 1) 75%, rgba(10, 10, 10, 1) 100%) !important;
 }
+}
+
+body a {
+    color: #fff !important;
+    text-decoration: none !important;
 }
