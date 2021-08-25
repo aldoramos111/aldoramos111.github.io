@@ -133,8 +133,8 @@
 }
 }
  a:hover, a {
-     color: #fff;
-     text-decoration: none;
+     color: #fff !important;
+     text-decoration: none !important;
      font-family: "Work Sans";
 }
 /*Projects Slide*/
