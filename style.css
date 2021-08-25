@@ -104,7 +104,7 @@
      position: relative;
 }
  nav a:hover {
-    color: #fff;
+    color: #fff !important;
  }
  nav a::before {
      content: "";
