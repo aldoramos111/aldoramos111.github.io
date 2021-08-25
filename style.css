@@ -103,6 +103,9 @@
      display: inline-block;
      position: relative;
 }
+ nav a:hover {
+    color: #fff;
+ }
  nav a::before {
      content: "";
      width: 0;
