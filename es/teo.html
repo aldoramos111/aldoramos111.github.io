@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Teo | Music Video 2020</title>
+    <title>Teo | Video Musical 2020</title>
     <meta name="description" content="Explore our latest projects.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="https://vertigovfx.com/media/favicon.png" />
@@ -14,31 +14,31 @@
   <body class="project-single">
     <header class="vfx-header">
       <div class="vfx-logo-container">
-        <a href="/"><img src="https://vertigovfx.com/media/vertigofx_logo.svg" alt="vertigofx logo"/></a>
+        <a href="/es/index.html"><img src="https://vertigovfx.com/media/vertigofx_logo.svg" alt="vertigofx logo"/></a>
       </div>
       <nav>
         <ul id="navList">
-          <li><a href="/">HOME</a></li>
-          <li><a href="/projects.html" class="nav-item projects">PROJECTS</a></li>
-          <li><a href="/about.html" class="nav-item about">ABOUT</a></li>
-          <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal2" onclick="mobileNavTogglegit()">GET IN TOUCH</a></li>
-          <li><a href="#!">EN</a><span class="lang-options">|</span><a href="es/teo.html">ES</a></li>
+          <li><a href="/">INICIO</a></li>
+          <li><a href="/es/proyectos.html" class="nav-item projects">PROYECTOS</a></li>
+          <li><a href="/es/nosotros.html" class="nav-item about">NOSOTROS</a></li>
+          <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal2" onclick="mobileNavTogglegit()">CONTACTO</a></li>
+          <li><a href="../teo.html">EN</a><span class="lang-options">|</span><a href="">ES</a></li>
         </ul>
         <img id="mobileNavToggle" src="https://vertigovfx.com/media/nav-bars.svg" class="mobile-nav-toggle" onclick="mobileNavToggle()"/>
       </nav>
     </header>
     <main>
       <div class="projects-header">
-        <h1 class="vfx-page-title">PROJECTS / TEO</h1>
+        <h1 class="vfx-page-title">PROYECTOS / TEO</h1>
       </div>
       <div class="vfx-project-page">
         <div class="vfx-pp-img">
           <img src="https://vertigovfx.com/media/ab67616d0000b273c4502e79a78fdc8b5aaa718b.jpg" alt="teo poster">
         </div>
         <div class="vfx-pp-info">
-          <p>Music Video</p>
+          <p>Video Musical</p>
           <p>2018</p>
-          <button type="button" href="#!" id="closevid" class="btn vfx-reel-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><span>PLAY VIDEO</span></button>
+          <button type="button" href="#!" id="closevid" class="btn vfx-reel-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><span>REPRODUCIR VIDEO</span></button>
         </div>
       </div>
       <img class="vfx-css-full-img last" alt="sanctorum storm" src="https://vertigovfx.com/media/un_dos-teo_-min-scaled.jpg">
@@ -46,41 +46,30 @@
     <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
+          <div class="modal-header"> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
           <div class="modal-body">
             <div class="vfx-get-in-touch">
-              <div class="get-in-touch-map">
-                <iframe src="https://snazzymaps.com/embed/331830" width="100%" style="border:none; height: 100vh;"></iframe>
-              </div>
+              <div class="get-in-touch-map"> <iframe src="https://snazzymaps.com/embed/331830" width="100%" style="border:none; height: 100vh;"></iframe></div>
               <div class="get-in-touch-form">
-                <h1 class="gitf-title">Let’s <span>Get in Touch</span></h1>
-                <p class="gitf-txt">
-                  A small step to a great opportunity. <br>Let’s work together!
-                </p>
-                <form id="get-in-touch-form" action="https://api.form-data.com/f/5f5tgosztkt2e22xl3aa4c"
-                  method="post">
+                <h1 class="gitf-title"><span>Contáctanos!</span></h1>
+                <p class="gitf-txt">Un pequeño paso a una gran oportunidad. <br>Trabajemos juntos!</p>
+                <form id="get-in-touch-form" action="https://api.form-data.com/f/5f5tgosztkt2e22xl3aa4c" method="post">
+                  <div class="gitf-row"> <input type="text" name="name" placeholder="Nombre"> <input type="text" name="email" placeholder="Email"></div>
                   <div class="gitf-row">
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="text" name="email" placeholder="Email">
-                  </div>
-                  <div class="gitf-row">
-                    <input type="text" name="phone" placeholder="Phone">
+                    <input type="text" name="phone" placeholder="Teléfono">
                     <div class="vfx-custom-select">
                       <select name="subject" id="subject">
-                        <option value="0">I'd like to:</option>
-                        <option value="Propose a project">Propose a project</option>
-                        <option value="Request portfolio">Request portfolio</option>
-                        <option value="Join VertigoFX team">Join VertigoFX team</option>
-                        <option value="General inquiry">General inquiry</option>
+                        <option value="0">Me gustaria:</option>
+                        <option value="Propose a project">Proponer un Proyecto</option>
+                        <option value="Request portfolio">Solicitar Portafolio</option>
+                        <option value="Join VertigoFX team">Unirme a VértigoFX</option>
+                        <option value="General inquiry">Duda General</option>
                       </select>
                     </div>
                   </div>
-                  <label>Message</label>
+                  <label>Mensaje</label>
                   <textarea name="message"></textarea>
-                  <input role="form-data-uploader" data-fd-disable-webcam="true" data-fd-disable-screen-capture="true" data-fd-button-label=" " data-fd-allowed-file-types=".pdf, .doc, .docx">
-                  <button type="submit" value="Submit"><span>SEND</span></button>
+                  <input role="form-data-uploader" data-fd-disable-webcam="true" data-fd-disable-screen-capture="true" data-fd-button-label=" " data-fd-allowed-file-types=".pdf, .doc, .docx"> <button type="submit" value="Submit"><span>ENVIAR</span></button>
                 </form>
               </div>
             </div>
