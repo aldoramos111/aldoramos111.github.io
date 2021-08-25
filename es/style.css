@@ -256,7 +256,7 @@
      position: absolute;
      right: 6.7% !important;
      bottom: 6.7vw !important;
-     z-index: 9999;
+     z-index: 999;
      transform: skewX(-14deg);
      font-size: calc(13px + .1vw);
      transition: all .2s ease-in-out;
