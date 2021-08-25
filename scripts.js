@@ -13,7 +13,7 @@ function mobileNavTogglegit() {
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 160) {
+    if (scroll >= 100) {
         $(".vfx-header").addClass("darkHeader");
     } else {
         $(".vfx-header").removeClass("darkHeader");
