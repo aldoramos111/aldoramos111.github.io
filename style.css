@@ -1663,3 +1663,8 @@ body a {
     color: #fff !important;
     text-decoration: none !important;
 }
+
+body .submission-txt a {
+    color:  var(--main-primary-color) !important;
+    margin-top:  20px;
+}
