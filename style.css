@@ -1310,7 +1310,7 @@ body.about footer {
          display: flex;
          flex-direction: column;
          align-items: center !important;
-         min-height: 220px;
+         height: calc(200px + 10vw);
          background: black;
          padding: 6% 0;
          display: none;

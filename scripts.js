@@ -30,7 +30,7 @@ function StopEmbedVideo() {
     $frame.attr('src', '');
 
     // sets it back to the correct link so that it reloads immediately on the next window open
-    $frame.attr('src', "https://www.youtube.com/embed/8ctRjR_DWAg?rel=0");
+    $frame.attr('src', vidsrc);
 
 };
 
