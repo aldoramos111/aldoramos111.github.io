@@ -1665,6 +1665,7 @@ body a {
 }
 
 body .submission-txt a {
-    color:  var(--main-primary-color) !important;
+    color:  var(--main-secondary-color) !important;
     margin-top:  20px;
+    display: inline-block;
 }
