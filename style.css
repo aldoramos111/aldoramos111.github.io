@@ -6,6 +6,30 @@
 }
  @font-face {
      font-family: "Geometos";
+     src: url("http://vertigovfx.com/fonts/Geometos.ttf");
+}
+ @font-face {
+     font-family: "Work Sans";
+     src: url("http://vertigovfx.com/fonts/WorkSans-Light.ttf");
+     font-weight: 300;
+}
+ @font-face {
+     font-family: "Work Sans";
+     src: url("http://vertigovfx.com/fonts/WorkSans-Regular.ttf");
+     font-weight: 400;
+}
+ @font-face {
+     font-family: "Work Sans";
+     src: url("http://vertigovfx.com/fonts/WorkSans-Medium.ttf");
+     font-weight: 500;
+}
+ @font-face {
+     font-family: "Work Sans";
+     src: url("http://vertigovfx.com/fonts/WorkSans-Bold.ttf");
+     font-weight: 700;
+}
+ @font-face {
+     font-family: "Geometos";
      src: url("https://vertigovfx.com/fonts/Geometos.ttf");
 }
  @font-face {
