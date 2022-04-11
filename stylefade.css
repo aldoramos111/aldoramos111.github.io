@@ -60,7 +60,7 @@ body {
   position: absolute;
   opacity: 0;
   transition: all .2s;
-  width: 39vw;
+  width: 42vw;
   z-index: 11;
 }
 
@@ -68,7 +68,7 @@ body {
   position: absolute;
   opacity: 0;
   transition: all .2s;
-  width: 39vw;
+  width: 42vw;
   z-index: 11;
 }
 
@@ -76,7 +76,7 @@ body {
   position: absolute;
   opacity: 0;
   transition: all .2s;
-  width: 39vw;
+  width: 42vw;
   z-index: 11;
 }
 
@@ -140,6 +140,7 @@ nav a:hover {
   top: 73vh;
   opacity: 0;
   transition: all .2s;
+  color: #050d28;
 }
 
 .home-subtitle {
@@ -148,9 +149,10 @@ nav a:hover {
   font-weight: 300;
   position: absolute;
   left: 34vw;
-  top: 81vh;
+  top: 80vh;
   opacity: 0;
   transition: all .2s;
+  color: #050d28;
 }
 
 /*Pre Loader*/
