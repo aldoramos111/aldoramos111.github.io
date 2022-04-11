@@ -28,7 +28,7 @@ body {
   object-fit: cover;
   background: #627C8550;
   opacity: 1;
-  z-index: 10;
+  z-index: 8;
 }
 
 .cover {
@@ -55,11 +55,12 @@ body {
   z-index: 11;
 }
 
+/*Circle Images*/
 .oceanica-img-circle {
   position: absolute;
   opacity: 0;
   transition: all .2s;
-  width: 34vw;
+  width: 39vw;
   z-index: 11;
 }
 
@@ -67,8 +68,7 @@ body {
   position: absolute;
   opacity: 0;
   transition: all .2s;
-  width: 48.22vw;
-  left: calc(26vw + 1px);
+  width: 39vw;
   z-index: 11;
 }
 
@@ -76,7 +76,8 @@ body {
   position: absolute;
   opacity: 0;
   transition: all .2s;
-  width: 48vw;
+  width: 39vw;
+  z-index: 11;
 }
 
 .viewport-header {
