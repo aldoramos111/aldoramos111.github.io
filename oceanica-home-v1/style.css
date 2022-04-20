@@ -1,0 +1,606 @@
+* {
+  transition: all .2s;
+}
+
+body {
+    position: fixed;
+    overflow-y: hidden;
+  height: 100vh;
+  display: none;
+}
+
+/*Resets*/
+body,
+figure,
+p,
+.intro-title,
+.intro-subtitle,
+h1,
+h2,
+h3{
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: #EFF4F2;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color: #050D28;
+}
+
+nav {
+  z-index: 11;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  opacity: 0;
+  z-index: 999;
+  transition: all .2s;
+}
+
+nav a {
+  color: /*#050d28*/ #fff;
+  text-decoration: none;
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  transition: all .2s;
+  z-index: 999;
+}
+
+nav a:hover,
+.about-us-btn:hover{
+  color: #e26659 !important;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 4vw 0;
+  position: absolute;
+  top: 0;
+  align-items: center;
+  z-index: 99999;
+}
+
+.header-col-1,
+.header-col-3{
+  width: 20vw;
+}
+
+.header-col-2 {
+  width: 80vw;
+}
+
+.header-col-3 {
+  text-align: right;
+}
+
+.oceanica-logo-txt {
+  min-width: 120px;
+  width: 14vw;
+  opacity: 0;
+  z-index: 10
+}
+
+.menu-toggle {
+  text-align: right;
+  margin-left: auto;
+  text-decoration: none;
+  color: #050d28;
+}
+
+footer {
+  width: 100vw;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5vw 11vw 5vw 9vw;
+}
+
+.footer-logo img {
+  width: 22vw;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.footer-txt {
+  color: #fff;
+  margin: 0;
+  font-style: italic;
+  margin-bottom: 7px;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav a,
+.footer-txt{
+  font-family: "Cormorant Garamond";
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.footer-nav li {
+  margin-bottom: 5px;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -15px;
+  align-items: flex-end;
+}
+
+svg {
+  fill: #fff !important;
+  width: 22px;
+  margin-right: 12px;
+  transition: all .3s ease-in-out;
+  margin: 0;
+  margin-right: 10px;
+}
+
+svg:hover {
+  fill: #e26659 !important;
+}
+
+.footer-nav a,
+.footer-txt {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.footer-nav a {
+  transition: all .3s ease-in-out;
+}
+
+.footer-nav a:hover {
+  color: #e26659;
+}
+
+ .footer-logo img{
+    min-width: 260px;
+  }
+
+/*Hero Image Secton*/
+
+.hero-img-section {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.img-container {
+  width: 100%;
+  height: 100%;
+    background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2022/04/home-hero-section.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid 24px #E4EFEE;
+}
+
+.quote-section {
+  width: 100%;
+  height: 88vh;
+  background: rgb(24,32,52);
+background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  color: #fff;
+  font-family: "Cormorant Garamond";
+  font-size: 30px;
+  line-height: 1.3em;
+  font-weight: 300;
+  text-align: center;
+  max-width: 80vw;
+  font-style: italic;
+}
+
+/*Below Fold Section*/
+
+.content-section-row {
+  display: flex;
+  padding: 1vw 2vw 4vw;
+}
+
+.content-section-col-1 {
+  width: 40%;
+  position: relative;
+}
+
+.content-section-col-1::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  bottom: 10vw;
+}
+
+.about-us-btn {
+  text-decoration: none;
+  color: #eff4f2;
+  position: absolute;
+  z-index: 2;
+  bottom: 15vw;
+  left: 3.5vw;
+  font-size: 18px;
+  font-style: italic;
+  transition: all .2s;
+}
+
+.about-us-btn span {
+  color: #e26659;
+  vertical-align: text-top;
+}
+
+.content-section-col-2 {
+  width: 60%;
+  padding: 20px 40px;
+}
+
+.home-img-2 img {
+  width: 100%;
+}
+
+.intro-title {
+  text-align: center;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  margin-bottom: 20px;
+  position: relative;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.intro-subtitle {
+  font-family: "Cormorant Garamond";
+  font-weight: 200;
+  font-size: 26px;
+  margin-bottom: 20px;
+  line-height: 1.1em;
+}
+
+.home-intro-txt {
+  font-size: 18px;
+  line-height: 1.6em;
+  margin-top: 2vw;
+}
+
+.last-social-icon {
+  margin-bottom: -3px;
+}
+
+.mobile-title-number {
+    display: none;
+  text-align: center;
+  font-style: italic;
+  color: #e26659;
+  font-size: 22px;
+  font-family: "Cormorant Garamond";
+  }
+
+/*Intro Section*/
+
+.intro-section-after {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5vw;
+}
+
+.intro-col-1 {
+  width:  60vw;
+  position: relative;
+}
+
+.intro-col-2 {
+  width: 39vw;
+  padding: 30px;
+}
+
+.home-img {
+  width: 100%;
+  transition: all .2s;
+  z-index: 11;
+  opacity: 0;
+}
+
+.home-title {
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  font-weight: 300;
+  position: absolute;
+  opacity: 0;
+  transition: all .2s;
+  color: #050d28;
+  bottom: 132px;
+  right: 130px;
+}
+
+.home-subtitle {
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+  font-weight: 300;
+  position: absolute;
+  opacity: 0;
+  transition: all .2s;
+  color: #050d28;
+  bottom: 110px;
+  right: 40px;
+}
+
+/**************/
+
+.intro-video {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  background: #eff4f2;
+  opacity: 1;
+}
+
+.video-overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  background: #627C8550;
+  opacity: 1;
+  z-index: 8;
+}
+
+.is-loading {
+  display: none;
+  visibility: hidden;
+  transform: translateX(-200vw);
+}
+
+.intro-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  transition: all .2s;
+  z-index: 99;
+}
+
+.cover {
+  width: 100%;
+  height: 100vh;
+  background: #eff4f200;
+}
+
+/*Circle Images*/
+.oceanica-img-circle,
+.oceanica-img{
+  position: absolute;
+  opacity: 0;
+  transition: all .2s;
+  width: 40vw;
+  left: 30vw;
+  z-index: 10;
+}
+
+@media only screen and (min-width: 1240px) {
+  .footer-nav a,
+  .footer-txt {
+      font-size: 1.4vw;
+  }
+    nav a {
+    font-size: 1.2vw;
+  }
+  nav {
+      width: 32vw;
+  }
+  /*.img-container {
+    background-attachment: fixed;
+  }*/
+}
+
+@media only screen and (min-width: 1024px) {
+  .home-title {
+  font-size: 2.4vw;
+  right: 13vw;
+  bottom: 13vw;
+}
+
+.home-subtitle {
+  font-size: 1.5vw;
+  right: 4.7vw;
+  bottom: 11vw;
+}
+    .quote {
+  font-size: 3vw;
+  max-width: 72vw;
+      line-height: 1.1em;
+}
+    .intro-title {
+  text-align: center;
+  font-size: 5vw;
+}
+  .intro-subtitle {
+    font-size: 3vw;
+  }
+  .home-intro-txt {
+    font-size: 1.6vw;
+  }
+   .about-us-btn {
+    font-size: 1.7vw;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .intro-title::before {
+  content: "01";
+  font-size: .45em;
+  position: absolute;
+  bottom: 12px;
+  left: -6vw;
+  font-style: italic;
+  color: #e26659;
+}
+  .intro-title {
+    margin-bottom: 1.8vw;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .oceanica-img-circle,
+.oceanica-img{
+  width: 70vw;
+  left: 10vw;
+}
+  header {
+    padding: 20px 8vw 0 4vw;
+  }
+  .intro-col-1 {
+    width: 100vw;
+    min-height: 400px;
+    height: 98vh;
+    background: url("https://turbotesting.wpengine.com/wp-content/uploads/2022/04/home-page-1-2.jpg");
+    background-color: #fff;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+  }
+  .home-title,
+  .home-subtitle{
+    right: 8vw;
+    color: #eff4f2;
+  }
+  .home-title {
+    bottom: 55px;
+  }
+  .home-subtitle {
+    bottom: 30px;
+  }
+  .intro-col-2 {
+    display: none;
+  }
+  .mobile-title-number {
+    display: block;
+  }
+  .content-section-row {
+    flex-direction: column;
+    padding: 20px 8vw 40px;
+  }
+    .content-section-col-2,
+  .content-section-col-1{
+    width: 100%;
+    padding: 0;
+  }
+  .content-section-col-2 {
+    padding-top: 28px;
+  }
+  .intro-title {
+    font-size: 40px;
+    padding: 0 7.5vw;
+  }
+  footer {
+    padding: 40px 6vw;
+  }
+  .img-container {
+    background-image: url("https://turbotesting.wpengine.com/wp-content/uploads/2022/04/home-hero-section-mobile.jpg");
+  }
+  .hero-img-section {
+  height: 400px;
+}
+  .about-us-btn {
+    bottom: 30vw;
+  }
+  .content-section-col-1::after {
+    bottom: 20vw;
+  }
+  header {
+    z-index: 9999;
+  }
+  .menu-toggle {
+  display: block;
+}
+  nav {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 500px) {
+  footer {
+    flex-direction: column;
+    padding: 40px 8vw;
+  }
+  .footer-col-1 {
+    margin-bottom: 40px;
+  }
+  .footer-logo img {
+    min-width: 150px;
+  }
+  .img-container {
+    border: solid 6vw #fff;
+  }
+  .hero-img-section {
+    height: 60vw;
+  }
+  .quote-section {
+    height: 250px;
+  }
+  .quote {
+  font-size: 20px;
+}
+    .footer-nav li {
+    margin-bottom: 15px;
+  }
+}
