@@ -11,6 +11,10 @@ setTimeout(() => {
 
 setTimeout(() => {
   el.style.position = 'relative';}, 11000);
+
+const ele = document.getElementById("intro-section-after")
+setTimeout(() => {
+  ele.style.visibility = 'visible';}, 6000); 
           
 let tl = gsap.timeline({Defaults: { Easing: Expo.EaseInOut}});
         tl.from('.intro-video', { duration:6, opacity: 0, ease: Expo.easeInOut})
