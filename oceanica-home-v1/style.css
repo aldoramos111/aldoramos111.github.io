@@ -9,6 +9,10 @@ body {
   display: none;
 }
 
+#intro-section-after {
+  visibility: hidden;
+}
+
 /*Resets*/
 body,
 figure,
@@ -77,6 +81,7 @@ nav a:hover,
 
 .menu-toggle {
   display: none;
+  opacity: 0;
 }
 
 header {
@@ -511,7 +516,7 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
   .intro-col-1 {
     width: 100vw;
     min-height: 400px;
-    height: 98vh;
+    height: 95vh;
     background: url("https://turbotesting.wpengine.com/wp-content/uploads/2022/04/home-page-1-2.jpg");
     background-color: #fff;
     background-blend-mode: multiply;
