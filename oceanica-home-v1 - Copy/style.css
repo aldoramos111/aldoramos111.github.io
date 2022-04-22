@@ -1,126 +1,17 @@
-.mobile-nav {
-	opacity:  0;
-	position:  fixed;
-	top: 0;
-	left: 0;
-	width:  100%;
-	height:  100vh;
-	background:  #000;
-	z-index:  -1;
-}
-
-.mobile-nav.active {
-	opactiy:  1;
-	z-index:  10;
-}
-
-.animation-section img {
-	    width: 59vw;
-    margin-left: auto;
-    display: block;
-    padding-bottom: 3%;
-    padding-right: 3%;
-    opacity:  0;
-    transform:  translateY(2vw);
-}
-
-/*hide page content by default*/
-
-.is-loading .site-wrapper {
-	display:  none;
-}
-
-.is-loading {
-	background:  #627C85;
-}
-
-/*styles for loader*/
-/*
-.intro-container,
-.intro-video {
-	visibility: hidden;
-	overflow:  hidden;
-}*/
-
-.is-loading .intro-container {
-	display:  flex;
-}
-
-.intro-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  opacity: 1;
-  transition: all .2s;
-  z-index: 1;
-  display:  none;
-}
-
-.intro-video {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  background: #eff4f2;
-  opacity: 0;
-}
-
-.video-overlay {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  background: #627C8550;
-  opacity: 1;
-  z-index: 8;
-}
-
-/*.is-loading {
-  display: none;
-  visibility: hidden;
-  transform: translateX(-200vw);
-}*/
-
-.cover {
-  width: 100%;
-  height: 100vh;
-  background: #eff4f200;
-}
-
-/*Circle Images*/
-.oceanica-img-circle,
-.oceanica-img{
-  position: absolute;
-  opacity: 0;
-  transition: all .2s;
-  width: 40vw;
-  left: 30vw;
-  z-index: 10;
-}
-/*
 * {
   transition: all .2s;
-}*/
+}
 
-/*body {
+body {
     position: fixed;
     overflow-y: hidden;
   height: 100vh;
   display: none;
-}*/
+}
 
-/*#intro-section-after {
+#intro-section-after {
   visibility: hidden;
-}*/
+}
 
 /*Resets*/
 body,
@@ -143,7 +34,7 @@ h4 {
 }
 
 p {
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
 }
 
@@ -329,7 +220,6 @@ svg:hover {
   background-repeat: no-repeat;
   background-position: center;
   border: solid 24px #E4EFEE;
-  opacity:  0;
 }
 
 .quote-section {
@@ -351,8 +241,6 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
   text-align: center;
   max-width: 80vw;
   font-style: italic;
-  opacity:  0;
-  transform:  translateY(2vw);
 }
 
 /*Below Fold Section*/
@@ -365,37 +253,27 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
 .content-section-col-1 {
   width: 40%;
   position: relative;
-  opacity:  0;
-  transform:  translateY(2vw);
 }
 
-/*.content-section-col-1::after {
+.content-section-col-1::after {
   content: "";
   width: 100%;
   height: 1px;
   background: #fff;
   position: absolute;
   bottom: 10vw;
-}*/
+}
 
 .about-us-btn {
   text-decoration: none;
   color: #eff4f2;
-  font-size: 18px;
-  font-style: italic;
-  transition: all .2s;
-}
-
-.about-us-btn.desktop {
-	  position: absolute;
+  position: absolute;
   z-index: 2;
   bottom: 15vw;
   left: 3.5vw;
-}
-
-.about-us-btn.mobile {
-	color:  #050D28;
-	margin-top:  20px;
+  font-size: 18px;
+  font-style: italic;
+  transition: all .2s;
 }
 
 .about-us-btn span {
@@ -406,8 +284,6 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
 .content-section-col-2 {
   width: 60%;
   padding: 20px 40px;
-    opacity:  0;
-  transform:  translateY(2vw);
 }
 
 .home-img-2 img {
@@ -425,8 +301,6 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
   width: -webkit-fit-content;
   width: fit-content;
   margin: 0 auto;
-    opacity:  0;
-  transform:  translateY(2vw);
 }
 
 .intro-subtitle {
@@ -483,7 +357,7 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
 
 .home-title {
   font-family: "Cormorant Garamond";
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 300;
   position: absolute;
   opacity: 0;
@@ -495,7 +369,7 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
 
 .home-subtitle {
   font-family: "Cormorant Garamond";
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   position: absolute;
   opacity: 0;
@@ -505,9 +379,66 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
   right: 40px;
 }
 
+/**************/
 
-.about-us-btn.mobile {
-	display:  none;
+.intro-video {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  background: #eff4f2;
+  opacity: 1;
+}
+
+.video-overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  background: #627C8550;
+  opacity: 1;
+  z-index: 8;
+}
+
+.is-loading {
+  display: none;
+  visibility: hidden;
+  transform: translateX(-200vw);
+}
+
+.intro-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  transition: all .2s;
+  z-index: 99;
+}
+
+.cover {
+  width: 100%;
+  height: 100vh;
+  background: #eff4f200;
+}
+
+/*Circle Images*/
+.oceanica-img-circle,
+.oceanica-img{
+  position: absolute;
+  opacity: 0;
+  transition: all .2s;
+  width: 40vw;
+  left: 30vw;
+  z-index: 10;
 }
 
 @media only screen and (min-width: 1240px) {
@@ -528,15 +459,15 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
 
 @media only screen and (min-width: 1024px) {
   .home-title {
-  font-size: 3.2vw;
-  right: 16vw;
+  font-size: 2.4vw;
+  right: 13vw;
   bottom: 13vw;
 }
 
 .home-subtitle {
-  font-size: 2.1vw;
-  right: 5.3vw;
-  bottom: 10.4vw;
+  font-size: 1.5vw;
+  right: 4.7vw;
+  bottom: 11vw;
 }
     .quote {
   font-size: 3vw;
@@ -574,31 +505,15 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
 }
 
 @media only screen and (max-width: 700px) {
-	.animation-section img {
-		margin-right:  auto;
-		margin-left:  auto;
-		width:  80vw;
-		padding: 0;
-		margin-bottom:  30px;
-	}
-	.home-title, .home-subtitle {
-		position:  static;
-	}
-	.about-us-btn.desktop {
-		display:  none;
-	}
-	.about-us-btn.mobile {
-		display:  block;
-	}
   .oceanica-img-circle,
 .oceanica-img{
-  width: 98vw;
-  left: 1vw;
+  width: 70vw;
+  left: 10vw;
 }
   header {
     padding: 20px 8vw 0 4vw;
   }
-  .intro-col-1.active {
+  .intro-col-1 {
     width: 100vw;
     min-height: 400px;
     height: 95vh;
@@ -606,11 +521,7 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
     background-color: #fff;
     background-blend-mode: multiply;
     background-size: cover;
-    background-position: 29% 50%;
-    display:  flex;
-    flex-direction:  column;
-    justify-content: center;
-    align-items: center;
+    background-position: center;
   }
   .home-title,
   .home-subtitle{
@@ -683,10 +594,10 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
     min-width: 150px;
   }
   .img-container {
-    border: none;
+    border: solid 6vw #fff;
   }
   .hero-img-section {
-    height: 75vh;
+    height: 60vw;
   }
   .quote-section {
     height: 250px;
@@ -698,5 +609,3 @@ background: linear-gradient(90deg, rgba(24,32,52,1) 0%, rgba(39,37,37,1) 100%);
     margin-bottom: 15px;
   }
 }
-
-
