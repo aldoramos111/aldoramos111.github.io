@@ -5,12 +5,28 @@
 	left: 0;
 	width:  100%;
 	height:  100vh;
-	background:  #000;
+	background:  #627C85;
 	z-index:  -1;
+	display:  flex;
+	flex-direction:  column;
+	justify-content: center;
+	align-items: center;
+  transition:  all .2s;
+}
+
+.mobile-navigation {
+	display:  flex;
+	flex-direction:  column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mobile-navigation a {
+	margin-bottom:  30px;
 }
 
 .mobile-nav.active {
-	opactiy:  1;
+	opacity:  1;
 	z-index:  10;
 }
 
@@ -138,8 +154,15 @@ h3{
 h1,
 h2,
 h3,
-h4 {
+h4,
+.mobile-nav a {
   font-family: 'Cormorant Garamond', serif;
+}
+
+.mobile-nav a {
+  text-decoration:  none;
+  color: #EFF4F2;
+  font-size:  22px;
 }
 
 p {

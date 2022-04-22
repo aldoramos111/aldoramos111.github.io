@@ -132,3 +132,7 @@ window.addEventListener('load', function(){
 setTimeout(() => {
   document.querySelector('.intro-col-1').classList.add('active')}, 6000);
 
+function myFunction() {
+  var element = document.getElementById("myDIV");
+  element.classList.toggle("active");
+} 
